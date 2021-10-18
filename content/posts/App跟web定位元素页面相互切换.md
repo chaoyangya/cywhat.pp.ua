@@ -1,7 +1,7 @@
 ---
 title: App跟web定位元素页面相互切换
 date: 2018-10-11 19:54:00
-draft: true
+draft: false
 tags: ["Android","Appium"]
 category: ["Appium"]
 ---

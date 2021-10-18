@@ -1,7 +1,7 @@
 ---
 title: avn自动切换node版本
 date: 2021-09-29 17:23:33
-draft: true
+draft: false
 tags: ["Avn","Node"]
 category: ["Avn"]
 ---

@@ -2,12 +2,14 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://cywhats.herokuapp.com/</loc><lastmod>2021-10-15T17:11:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://cywhats.herokuapp.com/tags/Django/</loc><lastmod>2021-10-15T17:11:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://cywhats.herokuapp.com/fonts.googleapis.com%E8%AE%BF%E9%97%AE%E8%BE%83%E6%85%A2/</loc><lastmod>2021-10-15T17:11:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://cywhats.herokuapp.com/posts/</loc><lastmod>2021-10-15T17:11:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://cywhats.herokuapp.com/tags/</loc><lastmod>2021-10-15T17:11:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://cywhats.herokuapp.com/tags/Avn/</loc><lastmod>2021-09-29T17:23:33&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://cywhats.herokuapp.com/avn%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2node%E7%89%88%E6%9C%AC/</loc><lastmod>2021-09-29T17:23:33&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://cywhats.herokuapp.com/</loc><lastmod>2021-09-29T17:23:33&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://cywhats.herokuapp.com/tags/Node/</loc><lastmod>2021-09-29T17:23:33&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://cywhats.herokuapp.com/posts/</loc><lastmod>2021-09-29T17:23:33&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://cywhats.herokuapp.com/tags/</loc><lastmod>2021-09-29T17:23:33&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://cywhats.herokuapp.com/bash-jstack-%E6%9C%AA%E6%89%BE%E5%88%B0%E5%91%BD%E4%BB%A4/</loc><lastmod>2021-07-20T10:12:22&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://cywhats.herokuapp.com/tags/Java/</loc><lastmod>2021-07-20T10:12:22&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://cywhats.herokuapp.com/tags/Android/</loc><lastmod>2018-10-11T19:54:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
