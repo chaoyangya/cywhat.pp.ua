@@ -23,6 +23,12 @@ enableGitInfo = false
 # 是否使用 emoji 代码
 enableEmoji = true
 
+#分类名称大小写
+preserveTaxonomyNames = true
+
+#
+disablePathToLower = true
+
 [languages]
 
   [languages.zh-cn]

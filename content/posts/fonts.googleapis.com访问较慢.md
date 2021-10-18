@@ -2,13 +2,14 @@
 title: "Fonts.googleapis"
 date: 2021-10-15T17:11:36+08:00
 draft: true
+tags: ["Django"]
+category: ["Django"]
 ---
 
 ---
 title: 'fonts.googleapis.com访问较慢[已解决]'
 date: 2021-10-12 18:14:32
-tags: Django
-category: Django
+
 ---
 
 **前景：**
