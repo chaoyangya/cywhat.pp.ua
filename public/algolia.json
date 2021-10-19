@@ -1,0 +1,923 @@
+[
+    {
+        "title": "App跟web定位元素页面相互切换",
+        "uri": "posts/App跟web定位元素页面相互切换",
+        "content": "QA  UI     App           web     App          App   H5                                                    self driver switch_to context   self driver switchto context  WEBVIEW1  app     web self driver switchto context  NATIVEAPP  web     app     App  web     web  App",
+        "objectID": "posts/App跟web定位元素页面相互切换",
+        "date": "2018-10-11T19:54:00.000Z",
+        "draft": false,
+        "tags": [
+            "Android",
+            "Appium"
+        ],
+        "category": [
+            "Appium"
+        ]
+    },
+    {
+        "title": "avn自动切换node版本",
+        "uri": "posts/avn自动切换node版本",
+        "content": "node                 node          node 1     nvm curl  o  https   raw githubusercontent com nvm sh nvm v0 35 2 install sh   bash         vim    bashrc        export NVM_DIR   HOME  nvm     s   NVMDIR nvm sh            NVMDIR nvm sh    loads nvm    s   NVMDIR bashcompletion            NVMDIR bashcompletion    loads nvm bash_completion        source    bashrc 2   avn nvm  g avn 3   avn avn setup 4                 cd XX      node version   touch  node version         node   echo v8 9 0     node version  V       5  avn       echo source   HOME  avn bin avn sh    load avn       bashrc       zshrc       6         node npm   node  v npm  v",
+        "objectID": "posts/avn自动切换node版本",
+        "date": "2021-09-29T17:23:33.000Z",
+        "draft": false,
+        "tags": [
+            "Avn",
+            "Node"
+        ],
+        "category": [
+            "Avn"
+        ]
+    },
+    {
+        "title": "bash:jstack: 未找到命令",
+        "uri": "posts/bash-jstack-未找到命令",
+        "content": "jstack        bash  jstack                 yum install java 1 7 0 openjdk devel  y",
+        "objectID": "posts/bash-jstack-未找到命令",
+        "date": "2021-07-20T10:12:22.000Z",
+        "draft": false,
+        "tags": [
+            "Java"
+        ],
+        "category": [
+            "Java"
+        ]
+    },
+    {
+        "title": "Centos7.7安装并配置jenkins+python+allure发送定制化报告",
+        "uri": "posts/Centos7-7安装并配置jenkins-python-allure发送定制化报告",
+        "content": "Centos7 7     jenkins python allure                                           baidu google                           python3 7 pytest allure                                                                    ok           Centos                                          ok            centos7 7                                         7 3                                                                  google             centos                                                             Python3 7       1   root                    root       PS   python3                                     cd          yum  y groupinstall  Development tools              yum  y install zlib devel bzip2 devel openssl devel ncurses devel sqlite devel readline devel tk devel gdbm devel db4 devel libpcap devel xz devel        yum install libffi devel  y                      python3 7                       2   python3 7         wget https   www python org ftp python 3 7 0 Python 3 7 0 tar xz   wget           wget yum  y install wget               tar  xvJf Python 3 7 0 tar xz 3                     mkdir  usr local python3           Python 3 7 0           cd Python 3 7 0               configure   prefix  usr local python3          make    install 4          python3    ln  s  usr local python3 bin python3  usr local bin python3   pip3     ln  s  usr local python3 bin pip3  usr local bin pip3   5                      python3   python3  V   pip3   pip3  V                6               export PYTHON_HOME  usr local python3  export PATH  PYTHON_HOME bin  PATH          vim  etc profile                         wq              source  etc profile                                    vim    bashrc       Python                 Github                      jenkins     Github   Jenkins 1   jenkins    jdk   jdk wget   no check certificate   no cookies   header  Cookie  oraclelicense accept securebackup cookie  https   download oracle com otn pub java jdk 8u201 b09 42970487e3af4f5aa5bca3f542482c60 jdk 8u201 linux x64 tar gz    wget   no check certificate   no cookies   header  Cookie  oraclelicense accept securebackup cookie  http   download oracle com otn pub java jdk 8u131 b11 d54c1d3a095b4ff2b6607d096fa80163 jdk 8u131 linux x64 rpm        rpm               rpm  ivh jdk 8u151 linux x64 rpm 2   java              vim  etc profile             jdk      export JAVA_HOME  usr lib jvm java export PATH  JAVA_HOME bin  PATH        source  etc profile 3   Jenkins     jenkins wget  O  etc yum repos d jenkins repo http   pkg jenkins ci org redhat jenkins repo        rpm   import https   pkg jenkins io redhat jenkins io key   jenkins yum install  y jenkins   nogpgcheck 4   jenkins      vi  etc sysconfig jenkins  JENKINS_PORT  8080       vi  etc sysconfig jenkins  JENKINS_USER  root          source  etc sysconfig jenkins 5     jenkins    service jenkins restart 6   jenkins           ip 8080   Jenkins           jenkins      jenkins               ok          allure 1   allure         allure       2   jdk allure jdk  allure  3   job           git      shell                jenkins                       4   allure     5  Advanced   html      6                                       7      Build Now         8",
+        "objectID": "posts/Centos7-7安装并配置jenkins-python-allure发送定制化报告",
+        "date": "2020-09-03T15:34:13.000Z",
+        "draft": false,
+        "tags": [
+            "Python",
+            "Jenkins",
+            "Allure",
+            "Linux"
+        ],
+        "category": [
+            "Python"
+        ]
+    },
+    {
+        "title": "Centos7安装chrome浏览器",
+        "uri": "posts/Centos7安装chrome浏览器",
+        "content": "1   chrome linux                1f4n      2           unzip google chrome stabledebrpm_91 0 4472 77 zip           deb    rpm       3     chrome        yum install  y lsb yum install  y libXScrnSaver yum install  y liberation fonts yum install  y libdbusmenu gtk3 yum install epel release 4   chrome   sudo rpm  ivh google chrome stablecurrentx86_64 rpm 5        systemctl start atd service",
+        "objectID": "posts/Centos7安装chrome浏览器",
+        "date": "2021-08-20T17:08:45.000Z",
+        "draft": false,
+        "tags": [
+            "Centos",
+            "Linux"
+        ],
+        "category": [
+            "Centos"
+        ]
+    },
+    {
+        "title": "Centos7安装mysql5.7亲测可用",
+        "uri": "posts/centos7安装mysql5-7亲测可用",
+        "content": "1          mysql        rpm  qa   grep mysql 2     Mysql         whereis mysql                   rm  rf  usr local mysql      whereis mysql          3   mysql                    1            cat  etc group   grep mysql                                  2             groupadd mysql         useradd  r  g mysql mysql        mysql    4         Linux Mysql            wget https   dev mysql com get Downloads MySQL 5 7 mysql 5 7 24 linux glibc2 12 x86_64 tar gz       mysql                  Mysql 1   mysql       tar  zvxf mysql 5 7 24 linux glibc2 12 x86_64 tar gz               mysql 5 7 24 linux glibc2 12 x86_64              usr local             mysql    usr local      mysql     mysql                                   mysql   mv mysql 5 7 24 linux glibc2 12 x86_64  usr local mysql 2   usr local mysql     data     mkdir  usr local mysql data 3   mysql                             cd  usr local    chown  R mysql mysql    chgrp  R mysql mysql  4         mysql                                cd  usr local mysql bin     bin             mysqld   initialize   user mysql   basedir  usr local mysql    datadir  usr local mysql data    lcmessagesdir  usr local mysql share   lcmessages enUS        4                        mysql        yum install libaio devel x86_64   yum  y install numactl 5                             root localhost            mysql           6       my cnf          vi  etc my cnf    my cnf             mysqld  basedir  usr local mysql  datadir  usr local mysql data  port   3306 symbolic links 0 symbolic links 0 max_connections 400 innodbfileper_table 1 lowercasetable_names 1 explicitdefaultsfor_timestamp 1    esc     wq               7          cd  usr local mysql support files    cp mysql server  etc init d mysql   vi  etc init d mysql                  basedir datadir   key      key   basedir  usr local mysql    datadir  usr local mysql data  8            chmod  x  etc init d mysql 9        chkconfig   add mysql 10   mysql   service mysql start                               Starting MySQL    ERROR  server quit without updating PID file       mysql mysqld                                                  mysql       11   mysql     ps  ef grep mysql 12   mysql           5             mysql  u root  p     mysql           usl local mysql bin       Enter password    mysql set password root localhost   password  yourpass    13          mysql use mysql    msyql update user set user Host     user User  root     mysql flush privileges",
+        "objectID": "posts/centos7安装mysql5-7亲测可用",
+        "date": "2020-03-30T15:54:01.000Z",
+        "draft": false,
+        "tags": [
+            "Linux",
+            "Mysql"
+        ],
+        "category": [
+            "Mysql"
+        ]
+    },
+    {
+        "title": "checkout无效",
+        "uri": "posts/checkout无效",
+        "content": "merge                         1       update                            git pull 2          git stash                             3    4                            git statsh pop 5                          update",
+        "objectID": "posts/checkout无效",
+        "date": "2018-10-29T16:29:00.000Z",
+        "draft": false,
+        "tags": [
+            "Git"
+        ],
+        "category": [
+            "Git"
+        ]
+    },
+    {
+        "title": "DJango Uncaught ReferenceError: $ is not defined",
+        "uri": "posts/DJango-Uncaught-ReferenceError-is-not-defined",
+        "content": "django jquery  web   html  js           DJango Uncaught ReferenceError    not defined     js          js          jquery    src   js",
+        "objectID": "posts/DJango-Uncaught-ReferenceError-is-not-defined",
+        "date": "2021-08-31T17:12:16.000Z",
+        "draft": false,
+        "tags": [
+            "Django",
+            "Jquery"
+        ],
+        "category": [
+            "Jquery"
+        ]
+    },
+    {
+        "title": "Django中的form表单校验",
+        "uri": "posts/Django中的form表单校验",
+        "content": "django form       view    form is_valid   form                  True       form                view          form   def clean_email self             return      email_title         code   random randrange 1000  9999  context      code   str code    emailtemplatename    tools_email html  t   loader gettemplate emailtemplate_name  html_content   t render context  email   self cleaned_data  email   msg   EmailMessage email_title  html_content  settings EMAIL_FROM   email    msg content_subtype    html  exists   models UserInfo objects filter email email  exists   not exists  return ValidationError                     ValidationError        view send_status   msg send   not send_status  self adderror  email               format sendstatus  errmsg     conn   getredisconnection   conn set email  code  ex 120  return email view   def send_sms request   form   SendEmailSmsForm request  data request POST  form is_valid         form               false   true return JsonResponse   status   True   return JsonResponse   status   False   error   form errors                 ValidationError           view                     return ValidationError              self add_error  email              email      field",
+        "objectID": "posts/Django中的form表单校验",
+        "date": "2021-09-24T18:20:37.000Z",
+        "draft": false,
+        "tags": [
+            "Django"
+        ],
+        "category": [
+            "Django"
+        ]
+    },
+    {
+        "title": "Django发送邮箱验证码实现以及邮箱html模板",
+        "uri": "posts/Django发送邮箱验证码实现以及邮箱html模板",
+        "content": "1 setting   EMAIL_BACKEND    django core mail backends smtp EmailBackend  EMAIL_HOST    smtp 163 com        EMAIL_PORT   25          25 EMAILHOSTUSER    xxxx 163 com       EMAILHOSTPASSWORD    XXXXXXXXXXXX                        EMAILUSETLS   False       False EMAIL_FROM    xxxx 163 com                     2               POP3 SMTP IMAP                              3      django core mail import EmailMessage django template import loader def clean_email self   email_title                       4         code   random randrange 1000  9999     context           html           HTML    code        context      code   str code        html            html        emailtemplatename    tools_email html  t   loader gettemplate emailtemplate_name     html                            html_content   t render context  email   self cleaned_data  email             exists   models UserInfo objects filter email email  exists   exists  msg   EmailMessage email_title         html_content           html   settings EMAIL_FROM               email                           msg content_subtype    html        send_status   msg send   not send_status  return ValidationError             format send_status  errmsg        redis      2min conn   getredisconnection   conn set email  code  ex 120  return email return ValidationError          4 html      load static       webkit scrollbar   display  none     divNeteaseBigAttach   divNeteaseBigAttach_bak   display  none    blockquote   display  none    body   font size  14px  font family  arial  verdana  sans serif  line height  1 666  padding  0  margin  0  overflow  auto  white space  normal  word wrap  break word  min height  100px   td  input  button  select  body   font family  Helvetica   Microsoft Yahei   verdana   pre   white space  pre wrap  white space   moz pre wrap  white space   pre wrap  white space   o pre wrap  word wrap  break word  width  95    th  td   font family  arial  verdana  sans serif  line height  1 666   img   border  0   header  footer  section  aside  article  nav  hgroup  figure  figcaption   display  block   blockquote   margin right  0px                                        code                 2                                                                                                 XXXXXXX QA      block js      endblock    5",
+        "objectID": "posts/Django发送邮箱验证码实现以及邮箱html模板",
+        "date": "2021-09-08T14:40:18.000Z",
+        "draft": false,
+        "tags": [
+            "Django",
+            "Html"
+        ],
+        "category": [
+            "Django"
+        ]
+    },
+    {
+        "title": "Django自定义404页面",
+        "uri": "posts/Django自定义404页面",
+        "content": "django   web    url               404        Django   1 11 7   2 0              1 settings      settings py                          debug false DEBUG False ALLOWED_HOST       2        views py   views py django shortcuts import render def pagenotfound request   return render request  404 html    404 html       404html   3       urls py   urls py    urls             urls py              import views handler404   views pagenotfound 4",
+        "objectID": "posts/Django自定义404页面",
+        "date": "2021-09-17T19:52:13.000Z",
+        "draft": false,
+        "tags": [
+            "Django"
+        ],
+        "category": [
+            "Django"
+        ]
+    },
+    {
+        "title": "ERROR: Re-run SonarScanner using the -X switch to enable full debug logging.",
+        "uri": "posts/ERROR-Re-run-SonarScanner-using-the-X-switch-to-enable-full-debug-logging",
+        "content": "jenkins  sonarqube         ERROR  Re run SonarScanner using  X switch enable full debug logging   1   sonarqube SCM   2",
+        "objectID": "posts/ERROR-Re-run-SonarScanner-using-the-X-switch-to-enable-full-debug-logging",
+        "date": "2021-09-23T11:25:17.000Z",
+        "draft": false,
+        "tags": [
+            "Jenkins",
+            "Sonarqube"
+        ],
+        "category": [
+            "Sonarqube"
+        ]
+    },
+    {
+        "title": "Error taking device screenshot: null",
+        "uri": "posts/Error-taking-device-screenshot-null",
+        "content": "Error obtaining UI hierarchy Reason  Error taking device screenshot  null                           1  app             uiautomatorviewer     2        3        4 appium           5       USB   6              USB",
+        "objectID": "posts/Error-taking-device-screenshot-null",
+        "date": "2018-10-11T19:42:00.000Z",
+        "draft": false,
+        "tags": [
+            "Android",
+            "Appium"
+        ],
+        "category": [
+            "Appium"
+        ]
+    },
+    {
+        "title": "fonts.googleapis.com访问较慢[已解决]",
+        "uri": "posts/fonts-googleapis-com访问较慢-已解决",
+        "content": "css         fonts googleapis com       1                   css         fonts googleapis com         cdnjs loli net 2    html     link 3              1   google   url   https   fonts googleapis com css family IBM Plex Sans 100 100i 200 200i 300 300i 400 400i 500 500i 600 600i 700 700i Rubik 300 300i 400 400i 500 500i 700 700i 900 900i display swap  2   css              3 css html       html css import  fonts css   4                ms",
+        "objectID": "posts/fonts-googleapis-com访问较慢-已解决",
+        "date": "2021-10-12T18:14:32.000Z",
+        "draft": false,
+        "tags": [
+            "Django"
+        ],
+        "category": [
+            "Django"
+        ]
+    },
+    {
+        "title": "Fonts.googleapis",
+        "uri": "posts/fonts.googleapis.com访问较慢",
+        "content": "title   fonts googleapis com           date  2021 10 12 18 14 32                                  css         fonts googleapis com       1                   css         fonts googleapis com         cdnjs loli net 2    html     link 3              1   google   url   https   fonts googleapis com css family IBM Plex Sans 100 100i 200 200i 300 300i 400 400i 500 500i 600 600i 700 700i Rubik 300 300i 400 400i 500 500i 700 700i 900 900i display swap  2   css              3 css html       html css import  fonts css   4                ms",
+        "objectID": "posts/fonts.googleapis.com访问较慢",
+        "date": "2021-10-15T09:11:36.000Z",
+        "draft": false,
+        "tags": [
+            "Django"
+        ],
+        "category": [
+            "Django"
+        ]
+    },
+    {
+        "title": "git branch出现end需要q才能退出",
+        "uri": "posts/git-branch出现end需要q才能退出",
+        "content": "git                      git config   global core pager mor",
+        "objectID": "posts/git-branch出现end需要q才能退出",
+        "date": "2021-04-01T17:54:22.000Z",
+        "draft": false,
+        "tags": [
+            "Git"
+        ],
+        "category": [
+            "Git"
+        ]
+    },
+    {
+        "title": ".gitignore不生效的解决方案",
+        "uri": "posts/gitignore不生效的解决方案",
+        "content": "git            git       git rm  r   cached",
+        "objectID": "posts/gitignore不生效的解决方案",
+        "date": "2021-04-01T18:17:13.000Z",
+        "draft": false,
+        "tags": [
+            "Git",
+            ".gitignore"
+        ],
+        "category": [
+            "Git"
+        ]
+    },
+    {
+        "title": "Git基础命令",
+        "uri": "posts/Git基础命令",
+        "content": "init                            push                     clone          master     dev       Dev                      add commit      dev           dev     merge  master  master                                   dev          bug        issue     bug     issue       dev   master            git             git                   git      git init                  git add filename                                    all                         git add     git add   all        git rm filename                                add                 git commit  m         commit                 git                 add          add     git status  b                                   git diff filename        git log                          git reset                HEAD                           git reset   hard HEAD                  d7b5                  git reset   hard d7b5                    git reflog git                            git branch        git branch                     git checkout                       git checkout  b                       git merge              git branch  d                               merge                                 merge   git log   graph                                    git tag                     git tag           git show        tag            tag    git push origin   tags     tag    git push origin v1 0 git        git remote add origin git   127 0 0 1 abc git          git remote remove origin                 u        master                  u    commit                             git push  u origin master                svn update     git pull tips   push                     pull              push git        push           GitHub         git       git    config                                   credential  helper   store          git push  f origin master",
+        "objectID": "posts/Git基础命令",
+        "date": "2019-10-23T15:32:00.000Z",
+        "draft": false,
+        "tags": [
+            "Git"
+        ],
+        "category": [
+            "Git"
+        ]
+    },
+    {
+        "title": "hexo d -g 部署失败",
+        "uri": "posts/hexo-d-g-部署失败",
+        "content": "hexo d  g                fatal  unable access  https   github com xxxxx xxxx git    requested URL returned error  403 err  Error  Spawn failed ChildProcess",
+        "objectID": "posts/hexo-d-g-部署失败",
+        "date": "2021-08-17T18:07:39.000Z",
+        "draft": false,
+        "tags": [
+            "Hexo"
+        ],
+        "category": [
+            "Hexo"
+        ]
+    },
+    {
+        "title": "hexo+netlify+git+个人域名搭建博客",
+        "uri": "posts/hexo-netlify-git-个人域名搭建博客",
+        "content": "Mac iterm  Git          Public            XX github io git Netlify              Hexo  5 4 0 Node  15 12 0   Node    PS               1   Hexo   npm install  g hexo cli 2            hexo init blog   blog           3   node_moudles   cd blog   npm install 4 blog     node_modules  node    public          scaffolds            source       themes     _config yml          5     Hexo   hexo s      4000    6 hexo         hexo clean              hexo new       hexo g                   html   hexo s      hexo 7   git       npm install hexo deployer git   save 8   hexo       git     vim _config yml deploy  type  git repo  https   github com chaoyangya chaoyangya github io git branch  master 9           git init             git add                  git commit  m  first commit                          git remote add origin https   github com chaoyangya chaoyangya github io git   git pull                       git push  u  f origin master                  f                                     f                      master                 10  hexo            hexo d  g 11   Netlify   Netlify    github           12   git                   13        14             Netlify          DNS  Netlify     15   Https Netlify    SSL          SSL                                                             Markdown",
+        "objectID": "posts/hexo-netlify-git-个人域名搭建博客",
+        "date": "2021-07-12T14:52:22.000Z",
+        "draft": false,
+        "tags": [
+            "Hexo",
+            "Netlify",
+            "Git"
+        ],
+        "category": [
+            "Hexo"
+        ]
+    },
+    {
+        "title": "hexo优化加载速度",
+        "uri": "posts/hexo优化加载速度",
+        "content": "Google                             npm install hexo all minifier   save               cnpm install hexo all minifier   save   Hexo     vim _config yml            all_minifier all_minifier  true html   html_minifier  enable  true ignore_error  false exclude  css   css_minifier  enable  true exclude     min css  js   js_minifier  enable  true mangle  true compress  exclude     min js  js_concator  enable  false bundle_path    js bundle js  front  false silent  false      image_minifier  enable  true interlaced  false multipass  false optimizationLevel  2 pngquant  false progressive  false        hexo d  g",
+        "objectID": "posts/hexo优化加载速度",
+        "date": "2021-07-14T15:38:49.000Z",
+        "draft": false,
+        "tags": [
+            "Hexo"
+        ],
+        "category": [
+            "Hexo"
+        ]
+    },
+    {
+        "title": "hexo修改新建文章的默认字段",
+        "uri": "posts/hexo修改新建文章的默认字段",
+        "content": "title date tags              title     title    date     date    tags  category               category",
+        "objectID": "posts/hexo修改新建文章的默认字段",
+        "date": "2021-07-09T14:33:15.000Z",
+        "draft": false,
+        "tags": [
+            "Hexo"
+        ],
+        "category": [
+            "Hexo"
+        ]
+    },
+    {
+        "title": "hexo删除文章",
+        "uri": "posts/hexo删除文章",
+        "content": "hexo           _posts      md            hexo d  g",
+        "objectID": "posts/hexo删除文章",
+        "date": "2021-07-08T18:32:57.000Z",
+        "draft": false,
+        "tags": [
+            "Hexo"
+        ],
+        "category": [
+            "Hexo"
+        ]
+    },
+    {
+        "title": "hexo管理多个标签",
+        "uri": "posts/hexo管理多个标签",
+        "content": "1 hexo         list       title  XXX date  2021 04 07 17 39 32 tags     1   2",
+        "objectID": "posts/hexo管理多个标签",
+        "date": "2021-07-08T18:07:20.000Z",
+        "draft": false,
+        "tags": [
+            "Hexo"
+        ],
+        "category": [
+            "Hexo"
+        ]
+    },
+    {
+        "title": "hexo迁移需要进行安装的一些依赖",
+        "uri": "posts/hexo迁移需要进行安装的一些依赖",
+        "content": "or                 hexo               1   hexo npm install  g hexo cli 2   node_moudles cd blog  blog       npm install 3   git     npm install hexo deployer git   save        git    ssh       push pull 4              npm install hexo all minifier   save    cnpm install hexo all minifier   save   hexo   5   hexo       npm install https   github com CodeFalling hexo asset image   save   hexo",
+        "objectID": "posts/hexo迁移需要进行安装的一些依赖",
+        "date": "2021-09-24T17:51:42.000Z",
+        "draft": false,
+        "tags": [
+            "Hexo"
+        ],
+        "category": [
+            "Hexo"
+        ]
+    },
+    {
+        "title": "html简单实现button加载中且置灰不可点击",
+        "uri": "posts/html简单实现button加载中且置灰不可点击",
+        "content": "js                         1 html   2 JS   function ClickBtnSms         Submit   click function             disable   true     val                 loading         Submit   val           prop  disabled   true     ajax   url   url   type   GET   data   data  data   dataType   JSON                       success  function  res     res status           res            else                           Submit   val          prop  disabled   false",
+        "objectID": "posts/html简单实现button加载中且置灰不可点击",
+        "date": "2021-09-09T11:26:12.000Z",
+        "draft": false,
+        "tags": [
+            "Html",
+            "JS"
+        ],
+        "category": [
+            "Html"
+        ]
+    },
+    {
+        "title": "HTTP各个status code代表什么意思",
+        "uri": "posts/HTTP各个status-code代表什么意思",
+        "content": "HTTP      HTTP                                                                                                                                        1 5   CODE                                                           1 2 3 4 5",
+        "objectID": "posts/HTTP各个status-code代表什么意思",
+        "date": "2019-03-07T16:30:00.000Z",
+        "draft": false,
+        "tags": [
+            "Https"
+        ],
+        "category": [
+            "Https"
+        ]
+    },
+    {
+        "title": "ImportError: No module named flask",
+        "uri": "posts/ImportError-No-module-named-flask",
+        "content": "1            Flask     pip uninstall Flask 2 yum   flask   yum install python flask 3                100",
+        "objectID": "posts/ImportError-No-module-named-flask",
+        "date": "2020-03-06T17:43:17.000Z",
+        "draft": false,
+        "tags": [
+            "Linux",
+            "Flask"
+        ],
+        "category": [
+            "Flask"
+        ]
+    },
+    {
+        "title": "Iterm2/Mac自带终端工具快速ssh",
+        "uri": "posts/Iterm2-Mac自带终端工具快速ssh",
+        "content": "eg             usr bin expect  f set hostname  lindex  argv 0  set user  lindex  argv 1  set password  lindex  argv 2  set timeout 30 spawn ssh  tt  user  hostname  expect    yes no    send  yes r  exp_continue     password     send   password r      interact         sh login sh       expect                    expect           sudo apt install expect    mac           windows      cygwin                                                   tcl expect apt cyg                                ssh                                               alias     expect login sh sship root passwd  ps                                               wsl       mac                   windows         mac",
+        "objectID": "posts/Iterm2-Mac自带终端工具快速ssh",
+        "date": "2019-01-26T11:13:00.000Z",
+        "draft": false,
+        "tags": [
+            "Iterm2",
+            "Mac"
+        ],
+        "category": [
+            "Iterm2"
+        ]
+    },
+    {
+        "title": "Java线上问题排查",
+        "uri": "posts/Java线上问题排查",
+        "content": "top           pid   top   pid        top  Hp pid1   id           pid    16     printf   x  pid2   id      6a4  6a4        jstack java          jstack pid1   id    t txt   jstack       jstack     t txt       vim t txt    6a4        collectorl",
+        "objectID": "posts/Java线上问题排查",
+        "date": "2021-07-20T10:03:12.000Z",
+        "draft": false,
+        "tags": [
+            "Java"
+        ],
+        "category": [
+            "Java"
+        ]
+    },
+    {
+        "title": "Jenkins启动报错原因分析",
+        "uri": "posts/Jenkins启动报错原因分析",
+        "content": "1   jenkins systemctl start jenkins               jenkins                2   jenkins     systemctl status jenkins service 3              system slice jenkins service",
+        "objectID": "posts/Jenkins启动报错原因分析",
+        "date": "2021-09-18T17:58:18.000Z",
+        "draft": false,
+        "tags": [
+            "Jenkins"
+        ],
+        "category": [
+            "Jenkins"
+        ]
+    },
+    {
+        "title": "libvulkan.so.1()(64bit)缺少依赖",
+        "uri": "posts/libvulkan-so-1-64bit-缺少依赖",
+        "content": "Linux  chrome               sudo yum  y install vulkan 1 1 97 0 1 el7 x86_64",
+        "objectID": "posts/libvulkan-so-1-64bit-缺少依赖",
+        "date": "2021-08-20T17:04:44.000Z",
+        "draft": false,
+        "tags": [
+            "Linux"
+        ],
+        "category": [
+            "Linux"
+        ]
+    },
+    {
+        "title": "Linux/macos安装newman",
+        "uri": "posts/Linux-macos安装newman",
+        "content": "Linux macos  newman     Node   1 2           node      linux    https   nodejs org en download  wget     wget https   nodejs org dist v15 12 0 node v15 12 0 linux x64 tar xz        tar  xvf node v15 12 0 linux x64 tar xz             mv node v15 12 0 linux x64  opt node 15          vim    bashrc         node   export NODE_HOME  opt node 15   export PATH  NODE_HOME bin  PATH         source    bashrc   node     node  v                  npm     npm  v                newman   npm install  g newman   registry https   registry npm taobao org                   newman  v",
+        "objectID": "posts/Linux-macos安装newman",
+        "date": "2021-03-22T16:06:15.000Z",
+        "draft": false,
+        "tags": [
+            "Linux",
+            "Newman",
+            "Node"
+        ],
+        "category": [
+            "Newman"
+        ]
+    },
+    {
+        "title": "Linux中常用来查看进程的命令",
+        "uri": "posts/Linux中常用来查看进程的命令",
+        "content": "ps aux   less           ps  A   ps  e             pstree         netstat  ntlp",
+        "objectID": "posts/Linux中常用来查看进程的命令",
+        "date": "2018-12-25T20:12:00.000Z",
+        "draft": false,
+        "tags": [
+            "Linux"
+        ],
+        "category": [
+            "Linux"
+        ]
+    },
+    {
+        "title": "Linux关闭防火墙",
+        "uri": "posts/Linux关闭防火墙",
+        "content": "ConterOS7 0      firewall ConterOS7 0      iptables 1          systemctl status firewalld  7 0     service iptables status  7 0   2           syatemctl stop firewalld  7 0     service iptables stop  7 0   3           systemctl disable firewalld  7 0     chkconfig iptables off  7 0   4         systemctl enable firewalld  7 0     service iptables restart  7 0",
+        "objectID": "posts/Linux关闭防火墙",
+        "date": "2021-09-01T10:43:37.000Z",
+        "draft": false,
+        "tags": [
+            "Linux"
+        ],
+        "category": [
+            "Linux"
+        ]
+    },
+    {
+        "title": "Linux安装jdk11",
+        "uri": "posts/Linux安装jdk11",
+        "content": "1   jdk           brq2 2        3      tar  zvxf openjdk 11 28linux x64bin tar gz 4             mv jdk 11   usr local java 5        vim  etc profile export JAVA_HOME  usr local java export PATH  JAVA_HOME bin  PATH          source  etc profile        6       ls  n  usr local java bin java  usr bin java 7   java   java  version",
+        "objectID": "posts/Linux安装jdk11",
+        "date": "2021-09-18T17:47:51.000Z",
+        "draft": false,
+        "tags": [
+            "Jdk",
+            "Linux"
+        ],
+        "category": [
+            "Jdk"
+        ]
+    },
+    {
+        "title": "Linux快捷进入长目录的方法",
+        "uri": "posts/Linux快捷进入长目录的方法",
+        "content": "1              alias cywhat   cd  root XX XX XX XX  2           source   bashrc 3",
+        "objectID": "posts/Linux快捷进入长目录的方法",
+        "date": "2018-11-02T16:16:00.000Z",
+        "draft": false,
+        "tags": [
+            "Linux"
+        ],
+        "category": [
+            "Linux"
+        ]
+    },
+    {
+        "title": "Linux搭建sonarqube",
+        "uri": "posts/Linux搭建sonarqube",
+        "content": "Linux   centos7 6   Java Jdk11   SonarQube 8 2 0 32929   PostgreSQL 12   sonar scanner 4 6 2 2472  1   Jdk   JDK 2   PostgreSQL 1      sudo yum install  y https   download postgresql org pub repos yum reporpms EL 7 x86_64 pgdg redhat repo latest noarch rpm 2   PostgreSQL sudo yum install  y postgresql12 server 3         sudo  usr pgsql 12 bin postgresql 12 setup initdb 4   md5   vim  var lib pgsql 12 data pg_hba conf 5    sudo systemctl enable postgresql 12 sudo systemctl start postgresql 12 3   SonarQube 1   SonarQube wget https   binaries sonarsource com Distribution sonarqube sonarqube 8 2 0 32929 zip 2    unzip sonarqube 8 2 0 32929 zip 3     mv sonarqube 8 2 0 32929  usr local sonarqube 4      1      sudo adduser sonar 2      sudo passwd sonar 3      chmod  R sonar sonar  usr local sonarqube 5   PostgreSQL      1    postgre   sudo su   postgre 2   psql psql  U postgres 3               CREATE DATABASE sonar  CREATE USER sonar ENCRYPTED PASSWORD          sonar           GRANT PRIVILEGES DATABASE sonar sonar  ALTER DATABASE sonar OWNER sonar  6   sonarqube   1 vim  usr local sonarqube conf sonar properties         DATABASE sonar jdbc username sonar sonar jdbc password  sonar jdbc url jdbc postgresql   localhost sonar sonar jdbc maxActive 60 sonar jdbc maxIdle 5 sonar jdbc minIdle 2 sonar jdbc maxWait 5000 sonar jdbc minEvictableIdleTimeMillis 600000 sonar jdbc timeBetweenEvictionRunsMillis 30000 sonar jdbc removeAbandoned true sonar jdbc removeAbandonedTimeout 60 2                 sonarqube   9000 search   9001              sonar web port 9000    sonarqube   sonar search port 9001    search                7   sonarqube su sonar      root   cd  usr local sonarqube bin linux x86 64  sh sonar sh start 8   sonar scanner   sonar scanner      qtd4 1        2    unzip sonar scanner cli 4 6 2 2472 linux zip 3     mv sonar scanner cli 4 6 2 2472 linux  usr local scanner 4       ln  s  usr local scanner bin sonar scanner  usr local bin scanner PS            ERROR   4  bootstrap checks failed  1   max file descriptors  4096  elasticsearch process low  increase least  65536   2   max number threads  1024  user  hadoop  low  increase least  2048   3   max virtual memory areas vm maxmapcount  65530  low  increase least  262144   4   system call filters failed install  check logs fix configuration disable system call filters own risk     1 vim  etc security limits conf          sonar                sonar soft nofile 65536  sonar   linux      sonarqube    sonar hard nofile 100000 sonar soft nproc 4096 sonar hard nproc 4096 ulimit  Hn            2 vim  etc sysctl conf         vm maxmapcount 655360       sysctl  p 3",
+        "objectID": "posts/Linux搭建sonarqube",
+        "date": "2021-09-22T16:35:47.000Z",
+        "draft": false,
+        "tags": [
+            "Sonarqube",
+            "Linux"
+        ],
+        "category": [
+            "Sonarqube"
+        ]
+    },
+    {
+        "title": "Linux管理node版本",
+        "uri": "posts/Linux管理node版本",
+        "content": "1   nvm   curl  o  https   raw githubusercontent com nvm sh nvm v0 35 2 install sh   bash      wget  qO  https   raw githubusercontent com nvm sh nvm v0 35 2 install sh   bash 2 nvm                            source    bashrc ps                    export NVMDIR       z    XDGCONFIGHOME         printf  s    HOME   nvm     printf  s    XDGCONFIG_HOME  nvm       s   NVMDIR nvm sh            NVMDIR nvm sh    loads nvm 3 nvm      node   nvm install v8 9 0 4   node     nvm use v8 9 0 5   node     node  v",
+        "objectID": "posts/Linux管理node版本",
+        "date": "2021-04-07T17:39:32.000Z",
+        "draft": false,
+        "tags": [
+            "Linux",
+            "Node"
+        ],
+        "category": [
+            "Node"
+        ]
+    },
+    {
+        "title": "Linux部署easy_mock",
+        "uri": "posts/Linux部署easy-mock",
+        "content": "1 Linux CentOS Linux release 7 8 2003  Core  2 mongodb 3 4 24 3 redis 4 0 14 4 node 8 9 0 PS    node      8 x x   mongodb      3 6 x mongodb     cd  usr local     mongodb    curl  O https   fastdl mongodb org linux mongodb linux x86_64 3 4 24 tgz       tar  zxvf mongodb linux x86_64 3 4 24 tgz     mongodb   mv mongodb linux x86_64 3 4 24 mongodb           vi    bashrc         export MONGO_HOME  usr local mongodb   export PATH  MONGO_HOME bin  PATH            source    bashrc    mongodb    mongodb                       cd  root    mkdir  p  mongodb data   mkdir  p  mongodb log    mongodb               mongodb   mongod   dbpath  root mongodb data   logpath  root mongodb log mongodb log   logappend         fork        dbpath          logpath          logappend         redis      redis    wget http   download redis io releases redis 4 0 14 tar gz       tar  xvzf redis 4 0 14 tar gz        mv redis 4 0 14 redis   cd redis 4 0 14     gcc     yum  y install gcc                  MALLOC libc         bin   cp src redis server  usr local bin    cp src redis cli  usr local bin     redis       vi redis conf   daemonize no yes       redis          redis server redis conf     node   cd  usr local     wget   yum install  y wget  wget  node    wget https   npm taobao org mirrors node v8 9 0 node v8 9 0 linux x64 tar xz         tar  zxvf node v8 9 0 linux x64 tar     node     mv node v8 9 0 node          vi    bashrc         export NODE_HOME  usr local node   export PATH   PATH   NODE_HOME bin            source    bashrc    node     node  v   easy_mock    git   yum install  y git    easymock    git clone https   github com easy mock easy mock git          cd easy mock       npm install                   cnpm             npm install  g cnpm   registry https   registry npm taobao org          cnpm install          systemctl stop firewalld service                  7300         pm2        npm install  g pm2       npm run build       NODE_ENV production pm2 start app js        Windows       cross env   mac  linux          File ecosystem config js not found   pm2 ecosystem                 npm run start                js  net  ERRCONNECTIONREFUSED     mongodb                  mongodb                              usr local          rm  rf mongodb linux x86_64 3 4 24 tgz redis 4 0 14 tar gz node v8 9 0 linux x64 tar            easy_mock config    default json    port   7300   host    0 0 0 0    pageSize   30   proxy   false   db    mongodb   127 0 0 1 easy mock       mongodb   127 0 0 1  unsplashClientId              build   npm run build    app   NODE_ENV production pm2 start app",
+        "objectID": "posts/Linux部署easy-mock",
+        "date": "2021-04-16T10:01:27.000Z",
+        "draft": false,
+        "tags": [
+            "Easy_mock",
+            "Linux"
+        ],
+        "category": [
+            "Easy_mock"
+        ]
+    },
+    {
+        "title": "mac 安装brew",
+        "uri": "posts/mac-安装brew",
+        "content": "mac   brew mac   ruby         terminal 1   ruby     ruby  version 2     ruby  brew   ruby  e    curl  fsSL https   raw githubusercontent com Homebrew install master install   3 brew               wget    brew install wget 4 brew              wget    brew uninstall wget 5   brew     brew list brew pip                    help",
+        "objectID": "posts/mac-安装brew",
+        "date": "2020-03-18T15:56:49.000Z",
+        "tags": [
+            "Mac",
+            "Brew"
+        ],
+        "category": "Mac"
+    },
+    {
+        "title": "Mac必备软件推荐",
+        "uri": "posts/Mac必备软件推荐",
+        "content": "app                                                                     Screenium 3                          Permute 3                   App Cleaner   Uninstaller                 Air2a Gui                Fork lift  finder         ftp  pap er  4K      IINA         Sublime Text                  MWeb Pro  markdown           Unarchiver          TinyCal          Appstore         Perculia",
+        "objectID": "posts/Mac必备软件推荐",
+        "date": "2021-09-10T14:54:10.000Z",
+        "draft": false,
+        "tags": [
+            "Mac"
+        ],
+        "category": [
+            "Mac"
+        ]
+    },
+    {
+        "title": "Mac忽略系统更新提醒，并取消小红点",
+        "uri": "posts/Mac忽略系统更新提醒，并取消小红点",
+        "content": "1                   1                2            Mac      3              2                   1           sudo softwareupdate   ignore  macOS Catalina    sudo softwareupdate   ignore  macOS Mojave    sudo softwareupdate   ignore  macOS Big Sur  2         defaults write com apple systempreferences AttentionPrefBundleIDs 0   killall Dock 3          sudo softwareupdate   reset ignored",
+        "objectID": "posts/Mac忽略系统更新提醒，并取消小红点",
+        "date": "2021-09-07T14:58:29.000Z",
+        "draft": false,
+        "tags": [
+            "Mac"
+        ],
+        "category": [
+            "Mac"
+        ]
+    },
+    {
+        "title": "mysql连接以及增删改查语句",
+        "uri": "posts/mysql连接以及增删改查语句",
+        "content": "1       mysql    mysql  h  ip  u     p   2           show databases  3           use xxx    xxx      4            show tables  4            show tables  5     insert      field1  field2    fieldN   VALUES   value1  value2    valueN    6     delete             7     update    set          8     select",
+        "objectID": "posts/mysql连接以及增删改查语句",
+        "date": "2021-08-18T16:41:15.000Z",
+        "draft": false,
+        "tags": [
+            "Mysql"
+        ],
+        "category": [
+            "Mysql"
+        ]
+    },
+    {
+        "title": "newman生成好看的html报告",
+        "uri": "posts/newman生成好看的html报告",
+        "content": "PS   newman   1   newman   npm install  g newman 2     html             npm install  g newman reporter html 3     html     npm install  g newman reporter htmlextra 4 newman       newman run SX postman_collection json  e environment json  r htmlextra cli   reporter htmlextra title                 reporter htmlextra browserTitle              reporter htmlextra export Bapi html        run        json       e           r             reporter htmlextra title        title   reporter htmlextra browserTitle         title   reporter htmlextra export      html",
+        "objectID": "posts/newman生成好看的html报告",
+        "date": "2021-08-18T10:38:09.000Z",
+        "draft": false,
+        "tags": [
+            "Postman",
+            "Newman",
+            "Jenkins"
+        ],
+        "category": [
+            "Newman"
+        ]
+    },
+    {
+        "title": "nginx解决多个端口映射80的配置",
+        "uri": "posts/nginx多个端口",
+        "content": "server   listen 80  server_name xx cn     1 location     proxy_pass http   x x x x 9001     1     80            server   listen 80  server_name xx cn     2 location     proxy_pass http   xx xx xx xx 7300     2     80                  server                  1   2      80",
+        "objectID": "posts/nginx多个端口",
+        "date": "2021-04-16T10:12:11.000Z",
+        "draft": false,
+        "tags": [
+            "Nginx",
+            "Linux"
+        ],
+        "category": [
+            "Nginx"
+        ]
+    },
+    {
+        "title": "nginx配置实现ip访问指定URL",
+        "uri": "posts/nginx配置实现ip访问指定URL",
+        "content": "nginx uwsgi   web       XX CN   nginx  404          XX CN      XX CN login    server 80                nginx        vim nginx conf      server           request_uri           rewrite     http   XX CN login break           XX CN       XX CN login",
+        "objectID": "posts/nginx配置实现ip访问指定URL",
+        "date": "2021-04-01T17:51:03.000Z",
+        "draft": false,
+        "tags": [
+            "Nginx"
+        ],
+        "category": [
+            "Nginx"
+        ]
+    },
+    {
+        "title": "no such table:django_session",
+        "uri": "posts/no-such-table-django-session",
+        "content": "django  django_session     Session          Web                       session id          django    session         python manage py migrate        ok",
+        "objectID": "posts/no-such-table-django-session",
+        "date": "2021-04-01T17:51:03.000Z",
+        "draft": false,
+        "tags": [
+            "Django"
+        ],
+        "category": [
+            "Django"
+        ]
+    },
+    {
+        "title": "node切换版本",
+        "uri": "posts/node切换版本",
+        "content": "1   n   npm install  g n 2    n     node   n 10 16 3          v          n latest          n rm 10 16 3          v           n ls 3     node       ls     n ls 10 16 3           node            4   node     node  v",
+        "objectID": "posts/node切换版本",
+        "date": "2021-08-17T16:00:12.000Z",
+        "draft": false,
+        "tags": [
+            "Node"
+        ],
+        "category": [
+            "Node"
+        ]
+    },
+    {
+        "title": "npm切换版本",
+        "uri": "posts/npm切换版本",
+        "content": "Npm     npm            nvm                 Node       Npm      Npm Node            Npm        PS                    Nvm   Node        Node   nvm uninstall vx x x     Node     nvm install vx x x   Node Npm     node  v   npm  v",
+        "objectID": "posts/npm切换版本",
+        "date": "2021-07-14T17:18:21.000Z",
+        "draft": false,
+        "tags": [
+            "Npm",
+            "Node"
+        ],
+        "category": [
+            "Npm"
+        ]
+    },
+    {
+        "title": "npm缺少css-loader，/style-compiler，stylus-loader问题，npm没有权限无法全局更新问题",
+        "uri": "posts/npm缺少css-loader，-style-compiler，stylus-loader问题，npm没有权限无法全局更新问题",
+        "content": "ERROR   nodemodules css loader   nodemodules vue loader lib style compiler   vue  true  id   data v a5e4f82a   scoped  false  hasInlineConfig  false    nodemodules stylus loader   import      didi ada style mixins styl    home xiaoju manhattan hera webapp client style base styl      nodemodules vue loader lib selector js type styles index 0 bustCache   client components panel_links vue Cannot find module  postcss import      nodemodules style loader   nodemodules css loader   nodemodules vue loader lib style compiler   vue  true  id   data v a5e4f82a   scoped  false  hasInlineConfig  false    nodemodules stylus loader   import      didi ada style mixins styl    home xiaoju manhattan hera webapp client style base styl      nodemodules vue loader lib selector js type styles index 0 bustCache   client components panellinks vue 4 14 454     client components panel_links vue     client app ts   multi   client app ts                                   css loader  style compiler stylus loader         npm              npn install stylus loader css loader style loader style compiler   save dev                    npm               npm                             npm        1                 mkdir    npm global 2   npm            npm config set prefix     npm global  3           profile           export PATH    npm global bin  PATH 4       npm     npm install 5                                success                                                    1   npm node js                            Node js     npm                                                                  nvm   npm                    Node js npm                 nvm      npm           nvm        npm                                             npm                                                   npm      nvm          https   github com creationix nvm blob master README md installation 2                                                                            npm login 3               npm whoami 4         npm     npm install npm next  g",
+        "objectID": "posts/npm缺少css-loader，-style-compiler，stylus-loader问题，npm没有权限无法全局更新问题",
+        "date": "2018-10-17T16:08:00.000Z",
+        "draft": false,
+        "tags": [
+            "Node",
+            "Npm"
+        ],
+        "category": [
+            "Npm"
+        ]
+    },
+    {
+        "title": "nvm: Cannot uninstall currently-active node version, vx.x.x (inferred from x.x.x)",
+        "uri": "posts/nvm-Cannot-uninstall-currently-active-node-version-vx-x-x-inferred-from-x-x-x",
+        "content": "nvm  node           nvm  Cannot uninstall currently active node version  vx x x  inferred x x x            node     nvm deactivate             nvm uninstall vx x x",
+        "objectID": "posts/nvm-Cannot-uninstall-currently-active-node-version-vx-x-x-inferred-from-x-x-x",
+        "date": "2021-07-14T17:14:24.000Z",
+        "draft": false,
+        "tags": [
+            "Nvm",
+            "Node",
+            "Npm"
+        ],
+        "category": [
+            "Npm"
+        ]
+    },
+    {
+        "title": "pip安装插件失败，拒绝连接",
+        "uri": "posts/pip安装插件失败，拒绝连接",
+        "content": "WARNING  Retrying  Retry total 4  connect None  read None  redirect None  status None   connection broken  ConnectTimeoutError    Connection mirrors aliyn com timed out   connect timeout 15       pypi simple python jenkins    pip3 install python jenkins   python jenkins             pip3 install  i https   pypi tuna tsinghua edu cn simple python jenkins",
+        "objectID": "posts/pip安装插件失败，拒绝连接",
+        "date": "2021-03-30T11:51:17.000Z",
+        "draft": false,
+        "tags": [
+            "Pip",
+            "Python"
+        ],
+        "category": [
+            "Pip"
+        ]
+    },
+    {
+        "title": "Postmant压力测试",
+        "uri": "posts/Postmant压力测试",
+        "content": "Postman                                          GET     Send                                                                                                                                         Header                                                                     Header                                               status  200     400        500                                  HTTP        params   url                                   Bulk Edit                                                                POST   form data x www form urlencoded raw binary    x www form urlencoded      form                                                    POST  user HTTP 1 1 Content Type application x www form urlencoded Accept Encoding  gzip  deflate Host  api test com Content Length  21 Connection  Keep Alive Cache Control  no cache name      age 18   Content Type application x www form urlencoded           URL   form data                                                                POST  user upload do HTTP 1 1 Accept Language  zh cn zh q 0 5 Accept Charset  GBK utf 8 q 0 7   q 0 7 Connection  keep alive Content Length  60408 Content Type multipart form data  boundary ZnGpDtePMx0KrHh_G0X99Yef9r8JZsRJSXC Host  api test com     Content Type multipart form data                 enctype  multipart form data   enctype                                    application x www form urlencoded                                         ASCII HEX     multipart form data                     mp3                                    text plain                                  form      enctype            enctype        enctype  application x  www form urlencoded                           raw          json xml        raw     raw    header       Content Type  application json       ajax   url   user    data JSON stringify user   method  POST   contentType  application json   success  function res   console info               binary                        PS        csv   json          Pre requestScript          username    password   Body     form data          key value  value      username      password    postman setEnvironmentVariable  username  data  username     postman setEnvironmentVariable  password  data  password        Tests      tests  Status code 200     responseCode code     200  tests  Response time less 10000ms     responseTime   10000  console log responseTime                                                 Runner                                                                                      500     100",
+        "objectID": "posts/Postmant压力测试",
+        "date": "2019-03-28T18:16:00.000Z",
+        "draft": false,
+        "tags": [
+            "Postman"
+        ],
+        "category": [
+            "Postman"
+        ]
+    },
+    {
+        "title": "Python+virtualenv+Django+nginx+uwsgi+centos7部署web应用",
+        "uri": "posts/Python-virtualenv-Django-nginx-uwsgi-centos7部署web应用",
+        "content": "CentOS Linux release 7 8 2003  Core  Python 3 7 0 Django  1 11 7 Nginx 1 16 1 Uwsgi 2 0 19 1     mac   iterm2 1    clone         git xftp   2   python3 7 0   python3 7 0    wget http   www python org ftp python 3 7 0 Python 3 7 0 tgz      tar  xvzf Python 3 7 0 tgz         cd Python 3 7 0            configure   with ssl           sudo install         ln  s  usr local python3 bin python3 7  usr bin python3   ln  s  usr local python3 bin pip3 7  usr bin pip3   python3     python3  V        1          pip3 install virtualenv 2             mkdir pyenv 3             cd pyenv 4          virtualenv  p python3 myenv 5          source  myenv bin activate 6            pip3 install  r requriements txt 7 pip        douban    pip install xx  i http   pypi douban com simple    uwsgi 1   uwsgi   pip3 install uwsgi 2           ini    uwsgi       touch uwsgi ini     uwsgi        3   uwsgi ini      uwsgi   http    wusgi       nginx     sockt     ip  http 111 11 11 1 9003 socket   111 11 11 1 9001        chdir    root mydjango   django   wsgi   wsgi file   mydjango wsgi py        master   true vacuum   true processes   4 threads   2    uwsgi   pid       pidfile    root mydjango uwsgi pid    uwsgi          daemonize    root mydjango uwsgi log       uwsgi    nginx             nginx 1        yum  y install gcc pcre devel zlib devel openssl openssl devel 2   nginx   wget http   nginx org download nginx 1 16 1 tar gz 3         mkdir  usr loacl nginx 4   nginx    tar  zxvf nginx 1 16 1 tar gz 5       nginx     cd nginx 1 16 1  6        configure   prefix  usr local nginx 7         install 8   nginx conf       vim  usr local nginx conf nginx conf        server   listen 80     80              listen      80 server_name xxx xxx xx x      ip          ip  charset koi8 r   access_log logs host access log main  location  static   alias  root mydjango web static         django          location     include uwsgi_params  uwsgi_pass XXX XX XX X 9001     ip       uwsgi ip    uwsgireadtimeout 2     error_page 404  404 html  redirect server error pages static page  50x html error_page 500 502 503 504  50x html  location    50x html   root html      nginx   cd  usr loacl nginx sbin     nginx django        1          source  myenv bin activate 2         python3 manage py makemigrations   python3 manage py migrate 3          python3 manage py collectstatic   uwsgi 1   uwsgi   uwsgi  d   ini uwsgi ini    d    uwsgi             1   uwsgi ini   WARNING  Can t find section  uwsgi  INI configuration file uwsgi ini      uwsgi ini       uwsgi                2                            403   nginx      root     vim  usr local nginx conf nginx conf    nginx                 3 nginx         bash  nginx  command not found   nginx          vim  etc profile          PATH  PATH  var local nginx sbin   export PATH           source  etc prifile        nginx",
+        "objectID": "posts/Python-virtualenv-Django-nginx-uwsgi-centos7部署web应用",
+        "date": "2021-03-11T17:09:24.000Z",
+        "draft": false,
+        "tags": [
+            "Python",
+            "Linux",
+            "Nginx",
+            "Django",
+            "Uwsgi",
+            "Virtualenv"
+        ],
+        "category": [
+            "Python"
+        ]
+    },
+    {
+        "title": "sed: -e expression #1, char 24: unknown option to 's' ",
+        "uri": "posts/sed-e-expression-1-char-24-unknown-option-to-s",
+        "content": "sed   e expression  1  char 24  unknown option s",
+        "objectID": "posts/sed-e-expression-1-char-24-unknown-option-to-s",
+        "date": "2021-08-17T18:15:24.000Z",
+        "draft": false,
+        "tags": [
+            "Linux",
+            "Sed"
+        ],
+        "category": [
+            "Linux"
+        ]
+    },
+    {
+        "title": "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary",
+        "uri": "posts/selenium-common-exceptions-WebDriverException-Message-unknown-error-cannot-find-Chrome-binary",
+        "content": "selenium common exceptions WebDriverException  Message  unknown error  cannot find Chrome binary                  chrome        windows mac            chrome_path   r  Library Frameworks Python framework Versions 3 6 bin chromedriver   mac   win         driver   webdriver Chrome chrome_path  linux    chrome    Linux  chrome",
+        "objectID": "posts/selenium-common-exceptions-WebDriverException-Message-unknown-error-cannot-find-Chrome-binary",
+        "date": "2021-08-20T17:23:21.000Z",
+        "draft": false,
+        "tags": [
+            "Selenium",
+            "Linux"
+        ],
+        "category": [
+            "Selenium"
+        ]
+    },
+    {
+        "title": "Shadowrocket小火箭配置规则文件",
+        "uri": "posts/Shadowrocket小火箭配置规则文件",
+        "content": "https   raw githubusercontent com chaoyangya cywhat block ad master cywhat block ad conf                   https   raw githubusercontent com chaoyangya cywhat block ad master cywhat no block ad conf",
+        "objectID": "posts/Shadowrocket小火箭配置规则文件",
+        "date": "2021-07-20T15:59:03.000Z",
+        "draft": false,
+        "tags": [
+            "Shadowrocket"
+        ],
+        "category": [
+            "Shadowrocket"
+        ]
+    },
+    {
+        "title": "supervisord管理常驻进程uwsgi/nginx/redis/mongodb",
+        "uri": "posts/supervisord管理常驻进程uwsgi-nginx-redis-mongodb",
+        "content": "1    supervisor yum     yum install supervisor pip     pip install supervisor easy_install     easy_install supervisor 2    supervisor      supervisor     echosupervisordconf    etc supervisord conf               mkdir  p  etc supervisord d conf 3                                ini     etc supervisord d conf              etc         supervisord d conf         include    files   supervisord d conf   ini 4          supervisor                    supervisord  c  etc supervisord conf 5                                ini              ini   touch my_uwsgi ini          program uwsgi   uwsgi                   user root       command  root pyenv myenv bin uwsgi   ini  root pyenv myenv my_uwsgi ini        directory  root pyenv myenv       autostart true      supervisor   autorestart true           stopasgroup true startsecs 3    3s          startretries 3         redirect_stderr true   stderr    stdout    flase stdoutlogfile  var log uwsgiout log                 uwsgi          stderrlogfile  var log uwsgierr log           6          supervisor           supervisorctl reload    supervisor         name     supervisorctl status 7  supervisor       supervisorctl restart           supervisorctl stop           supervisorctl start           supervisorctl restart           supervisorctl stop           supervisorctl start           supervisorctl update                         supervisorctl reload                      supervisorctl status                   XXX      FATAL Exited quickly  process log may details      supervisor                   kill               uwsgi uwsgi                    d           redis redis    redis conf      daemonize   no  nginx nginx             g  daemon off    mongodb mongodb",
+        "objectID": "posts/supervisord管理常驻进程uwsgi-nginx-redis-mongodb",
+        "date": "2021-05-24T11:35:23.000Z",
+        "draft": false,
+        "tags": [
+            "Supervisord",
+            "Linux"
+        ],
+        "category": [
+            "Supervisord"
+        ]
+    },
+    {
+        "title": "Tampermonkey+脚本+Aira2GUI直链下载百度网盘资源",
+        "uri": "posts/Tampermonkey-脚本-Aira2GUI直链下载百度网盘资源",
+        "content": "LM                   VIP               PS      chrome                  1 Chrome     Tampermonkey Tampermonkey      2           3   Aira2GUI Mac      qx7e Win      5s6i 4   Aira2GUI  windows  exe                             mac       app           5                                                     6                        7   Aira2GUI      8    Aira2GUI",
+        "objectID": "posts/Tampermonkey-脚本-Aira2GUI直链下载百度网盘资源",
+        "date": "2021-09-03T14:42:33.000Z",
+        "draft": false,
+        "tags": [
+            "Tampermonkey"
+        ],
+        "category": [
+            "Tampermonkey"
+        ]
+    },
+    {
+        "title": "web服务 访问Linux中的静态文件",
+        "uri": "posts/web服务-访问Linux中的静态文件",
+        "content": "404 NOT FOUND     nginx conf                           99 9999          Linux       1   nginx                  vim nginx conf 2                        http        proxyintercepterrors on  3                                 Bapi html        root cccc Bapi html      4                                 Bapi html",
+        "objectID": "posts/web服务-访问Linux中的静态文件",
+        "date": "2021-03-29T18:04:20.000Z",
+        "draft": false,
+        "tags": [
+            "Nginx",
+            "Linux"
+        ],
+        "category": [
+            "Nginx"
+        ]
+    },
+    {
+        "title": "怎么让你的个人博客可以在百度谷歌搜索到",
+        "uri": "posts/怎么让你的个人博客可以在百度谷歌搜索到",
+        "content": "https   ziyuan baidu com linksubmit url      https   search google com search console welcome      Google   360     https   info so 360 cn site_submit html                https   www bing com webmasters about      xml meta dns      https   zhanzhang sogou com  forceredirect 1",
+        "objectID": "posts/怎么让你的个人博客可以在百度谷歌搜索到",
+        "date": "2021-07-23T11:34:03.000Z",
+        "draft": false,
+        "tags": [
+            "Google",
+            "Hexo"
+        ],
+        "category": [
+            "Hexo"
+        ]
+    },
+    {
+        "title": "解决hexo图片不展示问题",
+        "uri": "posts/解决hexo图片不展示问题",
+        "content": "1   hexo       vim config yml    config yml   postassetfolder false     true    2   npm     npm install https   github com CodeFalling hexo asset image   save 3   hexo     hexo clean 4        hexo new  XXA              _post        XXA                5                asset_img img7 png image     img7 png             image      ps                           6        hexo d  g                          1    node_modules hexo asset image index js   vim  node_modules hexo asset image index js 2             index js     use strict   var cheerio   require  cheerio       http   stackoverflow com questions 14480345 how to get the nth occurrence in a string function getPosition str  m  i    return str split m  i  join m  length    var version   String hexo version  split       hexo extend filter register  afterpostrender   function  data    var config   hexo config   config postassetfolder    var link   data permalink   version length   0    Number version 0      3  var beginPos   getPosition link       1    1  else var beginPos   getPosition link       3    1     hexo 3 1 1  permalink  about  page      about index html   var endPos   link lastIndexOf        1  link   link substring beginPos  endPos   var toprocess     excerpt    more    content     var   0  1  srcArray shift    src   srcArray join         this  attr  src   config root   link   src   console info    console info  update link as        config root   link   src       else   console info    console info  no src attr  skipped       console info    console info   this          data key      html            3               hexo clean   hexo d  g",
+        "objectID": "posts/解决hexo图片不展示问题",
+        "date": "2021-08-18T16:12:40.000Z",
+        "draft": false,
+        "tags": [
+            "Hexo"
+        ],
+        "category": [
+            "Hexo"
+        ]
+    }
+]
