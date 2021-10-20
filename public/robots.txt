@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://cywhat.netlify.app/sitemap.xml
+Sitemap: https://cywhat.pp.ua/sitemap.xml
