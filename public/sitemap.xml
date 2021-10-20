@@ -2,6 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://cywhat.pp.ua/about/</loc><lastmod>2021-10-19T22:01:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://cywhat.pp.ua/</loc><lastmod>2021-10-12T18:14:32&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://cywhat.pp.ua/tags/Django/</loc><lastmod>2021-10-12T18:14:32&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://cywhat.pp.ua/fonts-googleapis-com%E8%AE%BF%E9%97%AE%E8%BE%83%E6%85%A2-%E5%B7%B2%E8%A7%A3%E5%86%B3/</loc><lastmod>2021-10-12T18:14:32&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
