@@ -18,9 +18,7 @@
 <meta name="twitter:title" content="nginx解决多个端口映射80的配置"/>
 <meta name="twitter:description" content="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 $ server { listen 80; server_name xx.cn; #域名1 location / { proxy_pass http://x.x.x.x:9001; #域名1需要映射到80端口的服务端口 } } server { listen 80; server_name xx.cn; #域名2 location / { proxy_pass http://xx.xx.xx.xx:7300; #域"/>
 <meta name="application-name" content="LoveIt">
-<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://cywhat.pp.ua/nginx%E5%A4%9A%E4%B8%AA%E7%AB%AF%E5%8F%A3/" /><link rel="prev" href="https://cywhat.pp.ua/Linux%E9%83%A8%E7%BD%B2easy-mock/" /><link rel="next" href="https://cywhat.pp.ua/supervisord%E7%AE%A1%E7%90%86%E5%B8%B8%E9%A9%BB%E8%BF%9B%E7%A8%8Buwsgi-nginx-redis-mongodb/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://cywhat.pp.ua/nginx%E5%A4%9A%E4%B8%AA%E7%AB%AF%E5%8F%A3/" /><link rel="prev" href="https://cywhat.pp.ua/Linux%E9%83%A8%E7%BD%B2easy-mock/" /><link rel="next" href="https://cywhat.pp.ua/supervisord%E7%AE%A1%E7%90%86%E5%B8%B8%E9%A9%BB%E8%BF%9B%E7%A8%8Buwsgi-nginx-redis-mongodb/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -46,11 +44,11 @@
             <a href="/" title="cywhat&#39;s blog"><img
         class="lazyload logo"
         src="/svg/loading.min.svg"
-        data-src="/img/favicon.ico"
-        data-srcset="/img/favicon.ico, /img/favicon.ico 1.5x, /img/favicon.ico 2x"
+        data-src="/static/favicon.ico"
+        data-srcset="/static/favicon.ico, /static/favicon.ico 1.5x, /static/favicon.ico 2x"
         data-sizes="auto"
-        alt="/img/favicon.ico"
-        title="/img/favicon.ico" /><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>cywhat&#39;s blog</a>
+        alt="/static/favicon.ico"
+        title="/static/favicon.ico" /><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>cywhat&#39;s blog</a>
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
@@ -77,11 +75,11 @@
                 <a href="/" title="cywhat&#39;s blog"><img
         class="lazyload logo"
         src="/svg/loading.min.svg"
-        data-src="/img/favicon.ico"
-        data-srcset="/img/favicon.ico, /img/favicon.ico 1.5x, /img/favicon.ico 2x"
+        data-src="/static/favicon.ico"
+        data-srcset="/static/favicon.ico, /static/favicon.ico 1.5x, /static/favicon.ico 2x"
         data-sizes="auto"
-        alt="/img/favicon.ico"
-        title="/img/favicon.ico" /><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>cywhat&#39;s blog</a>
+        alt="/static/favicon.ico"
+        title="/static/favicon.ico" /><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>cywhat&#39;s blog</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
