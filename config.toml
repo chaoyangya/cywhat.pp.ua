@@ -92,7 +92,7 @@ posts = "/:year/:month/:day/:slug"
         # 是否隐藏网站图标资源链接
         noFavicon = false
         # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-        svgFavicon = ""
+        svgFavicon = "favicon.ico"
         # Android 浏览器主题色
         themeColor = "#ffffff"
         # Safari 图标颜色
@@ -130,7 +130,7 @@ posts = "/:year/:month/:day/:slug"
           # Gravatar 邮箱，用于优先在主页显示的头像
           gravatarEmail = ""
           # 主页显示头像的 URL
-          avatarURL = "/images/avatar.png"
+          avatarURL = ""
           # 主页显示的网站标题 (支持 HTML 格式)
           title = "cywhat<br>."
           # 主页显示的网站副标题
@@ -248,7 +248,7 @@ posts = "/:year/:month/:day/:slug"
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = "/img/favicon.ico"
+      logo = "/themes/static/favicon.ico"
       # title name
       # 标题名称
       name = "cywhat's blog"
@@ -463,7 +463,7 @@ posts = "/:year/:month/:day/:slug"
         enable = true
         appId = "FWDPvzYo5Ip3RJ0e0ed2GqOm-MdYXbMMI"
         appKey = "U3pRQzbe2MecHMafDhaAaoRQ"
-        placeholder = ""
+        placeholder = "说点什么吧"
         avatar = "mp"
         meta= ""
         pageSize = 10
@@ -472,7 +472,7 @@ posts = "/:year/:month/:day/:slug"
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = "https://cywhat.pp.ua"
+        serverURLs = "https://mukjinfv.api.lncldglobal.com"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/LoveIt/assets/data/emoji/" directory
