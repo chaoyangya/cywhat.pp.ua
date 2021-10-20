@@ -1,8 +1,9 @@
 ---
 title: nginx配置实现ip访问指定URL
 date: 2021-04-01 17:51:03
-tags: Nginx
-category: Nginx
+draft: false
+tags: ["Nginx"]
+category: ["Nginx"]
 ---
 
 **我的需求是这样的，nginx+uwsgi启动的web服务，访问域名XX.CN之后，nginx报错404，我需要实现的是访问XX.CN，自动映射到XX.CN/login 因为我server是80端口，所以不需要加端口即可访问**

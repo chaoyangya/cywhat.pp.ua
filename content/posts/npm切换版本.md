@@ -1,8 +1,9 @@
 ---
 title: npm切换版本
 date: 2021-07-14 17:18:21
-tags: [Npm,Node]
-category: Npm
+draft: false
+tags: ["Npm","Node"]
+category: ["Npm"]
 ---
 
 # Npm切换版本

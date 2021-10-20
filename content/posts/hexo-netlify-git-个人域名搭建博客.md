@@ -1,8 +1,9 @@
 ---
 title: hexo+netlify+git+个人域名搭建博客
 date: 2021-07-12 14:52:22
-tags: [Hexo,Netlify,Git]
-category: Hexo
+draft: false
+tags: ["Hexo","Netlify","Git"]
+category: ["Hexo"]
 ---
 
 **部署过程需要用到一些```Linux```命令,且本文部署操作机为Mac,如是Windows不保证能100%成功噢**
@@ -99,7 +100,8 @@ $ hexo d -g
 
 ## 11.关联Netlify
 登录Netlify建议使用github账号登录,会方便很多
-{% asset_img img.png  关联Netlify %}
+
+![img](/img/img.png)
 
 ## 12.关联git仓库和分支
 登录之后点击醒目的绿色的```New site fomr Git```按钮来新建站点并选取刚刚创建的仓库：
@@ -109,12 +111,16 @@ $ hexo d -g
 
 ## 14.关联个人域名(如果不是从Netlify购入域名,需要将域名DNS指向Netlify)
 选择```Add domain alias```添加个人域名,这里Netlify会默认给你新添加的域名多加一个重定向的www网址
-{% asset_img img1.png  关联个人域名 %}
+
+![img1](/img/img1.png)
+
 
 
 ## 15.开启Https
 Netlify免费提供SSL证书,支持添加自己的SSL,需要新增三个证书.或者将自己域名的```CNAME```记录类型指向你的.com结尾的域名也可以
-{% asset_img img2.png  开启https %}
+
+![img2](/img/img2.png)
+
 
 
 添加好之后等一会就可以通过你的域名来访问了

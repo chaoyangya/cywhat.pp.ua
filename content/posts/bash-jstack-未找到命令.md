@@ -9,7 +9,8 @@ category: ["Java"]
 ```bash
 $ -bash: jstack: 未找到命令
 ```
-![jstack报错](/static/images/base-jstack.png)
+
+![img3](/img/img3.png)
 
 ## 安装以下依赖
 ```bash

@@ -3,8 +3,9 @@ title: >-
   selenium.common.exceptions.WebDriverException: Message: unknown error: cannot
   find Chrome binary
 date: 2021-08-20 17:23:21
-tags: [Selenium,Linux]
-category: Selenium
+draft: false
+tags: ["Selenium","Linux"]
+category: ["Selenium"]
 ---
 
 报错: selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary

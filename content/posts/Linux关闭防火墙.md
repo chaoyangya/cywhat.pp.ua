@@ -1,8 +1,9 @@
 ---
 title: Linux关闭防火墙
 date: 2021-09-01 10:43:37
-tags: Linux
-category: Linux
+draft: false
+tags: ["Linux"]
+category: ["Linux"]
 ---
 
 **注意:ConterOS7.0以上使用的是firewall，ConterOS7.0以下使用的是iptables**

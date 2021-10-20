@@ -1,8 +1,9 @@
 ---
 title: Centos7安装chrome浏览器
 date: 2021-08-20 17:08:45
-tags: [Centos,Linux]
-category: Centos
+draft: false
+tags: ["Centos","Linux"]
+category: ["Centos"]
 ---
 
 ## 1.下载chrome for linux压缩包

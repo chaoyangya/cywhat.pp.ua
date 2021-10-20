@@ -1,8 +1,9 @@
 ---
 title: Linux搭建sonarqube
 date: 2021-09-22 16:35:47
-tags: [Sonarqube,Linux]
-category: Sonarqube
+draft: false
+tags: ["Sonarqube","Linux"]
+category: ["Sonarqube"]
 ---
 
 **前言**
@@ -37,7 +38,8 @@ sudo systemctl enable postgresql-12
 
 sudo systemctl start postgresql-12
 ```
-{% asset_img img101.png  修改md5加密 %}
+
+![img17](/img/img17.png)
 
 
 ## 3.安装SonarQube

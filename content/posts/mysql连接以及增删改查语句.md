@@ -1,8 +1,9 @@
 ---
 title: mysql连接以及增删改查语句
 date: 2021-08-18 16:41:15
-tags: Mysql
-category: Mysql
+draft: false
+tags: ["Mysql"]
+category: ["Mysql"]
 ---
 
 好久没操作数据库语句,都快忘光了,记录一下

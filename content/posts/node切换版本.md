@@ -1,8 +1,9 @@
 ---
 title: node切换版本
 date: 2021-08-17 16:00:12
-tags: Node
-category: Node
+draft: false
+tags: ["Node"]
+category: ["Node"]
 ---
 
 ## 1.安装n

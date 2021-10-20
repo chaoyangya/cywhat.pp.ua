@@ -1,8 +1,9 @@
 ---
 title: Linux部署easy_mock
 date: 2021-04-16 10:01:27
-tags: [Easy_mock,Linux]
-category: Easy_mock
+draft: false
+tags: ["Easy_mock","Linux"]
+category: ["Easy_mock"]
 ---
 前期准备：
 1、Linux：CentOS Linux release 7.8.2003 (Core)

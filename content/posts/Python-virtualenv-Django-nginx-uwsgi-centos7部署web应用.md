@@ -1,8 +1,9 @@
 ---
 title: Python+virtualenv+Django+nginx+uwsgi+centos7部署web应用
 date: 2021-03-11 17:09:24
-tags: [Python,Linux,Nginx,Django,Uwsgi,Virtualenv]
-category: Python
+draft: false
+tags: ["Python","Linux","Nginx","Django","Uwsgi","Virtualenv"]
+category: ["Python"]
 ---
 
 给公司写的一个工具平台，先部署到自己的服务器上进行测试，真是困难重重，此文章仅记录自己踩坑过程和搭建教程，不保证你能按照教程成功搭建，但能把坑提前暴露出来，避免大家重复踩坑！

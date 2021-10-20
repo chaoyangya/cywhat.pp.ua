@@ -1,8 +1,9 @@
 ---
 title: Shadowrocket小火箭配置规则文件
 date: 2021-07-20 15:59:03
-tags: Shadowrocket
-category: Shadowrocket
+draft: false
+tags: ["Shadowrocket"]
+category: ["Shadowrocket"]
 ---
 
 ## 国内外划分+广告过滤

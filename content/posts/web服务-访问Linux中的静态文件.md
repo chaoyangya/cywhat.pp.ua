@@ -1,8 +1,9 @@
 ---
 title: web服务 访问Linux中的静态文件
 date: 2021-03-29 18:04:20
-tags: [Nginx,Linux]
-category: Nginx
+draft: false
+tags: ["Nginx","Linux"]
+category: ["Nginx"]
 ---
 
 报错404，NOT FOUND可能是因为nginx.conf配置文件的俩处地方配置有误，按照下面，检查你的配置之后99.9999%是可以在浏览器访问Linux的静态文件的

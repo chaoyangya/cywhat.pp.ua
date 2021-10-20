@@ -1,8 +1,9 @@
 ---
 title: Jenkins启动报错原因分析
 date: 2021-09-18 17:58:18
-tags: Jenkins
-category: Jenkins
+draft: false
+tags: ["Jenkins"]
+category: ["Jenkins"]
 ---
 
 ## 1.启动jenkins

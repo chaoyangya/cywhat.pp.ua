@@ -1,8 +1,9 @@
 ---
 title: Django中的form表单校验 
 date: 2021-09-24 18:20:37 
-tags: Django 
-category: Django
+draft: false
+tags: ["Django"] 
+category: ["Django"] 
 ---
 
 **前景：**

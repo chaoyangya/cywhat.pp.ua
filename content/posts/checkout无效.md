@@ -1,8 +1,9 @@
 ---
 title: checkout无效
 date: 2018-10-29 16:29:00
-tags: Git
-category: Git
+draft: false
+tags: ["Git"]
+category: ["Git"]
 ---
 在日常工作中，我们经常会遇到要更新一个项目，但是由于更改了配置，需要将这些配置```commit```或者```checkout```，但是有的同学不想commit怎么办呢，只能通过checkout，那么问题又来了，改了很多配置，checkout之后又要重新修改配置，就很烦。
 

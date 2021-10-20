@@ -1,8 +1,9 @@
 ---
 title: supervisord管理常驻进程uwsgi/nginx/redis/mongodb
 date: 2021-05-24 11:35:23
-tags: [Supervisord,Linux]
-category: Supervisord
+draft: false
+tags: ["Supervisord","Linux"]
+category: ["Supervisord"]
 ---
 
 解决部署的一些项目,因机器关机/重启导致项目需要手动重新启动的问题

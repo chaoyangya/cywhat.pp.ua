@@ -1,8 +1,9 @@
 ---
 title: Centos7安装mysql5.7亲测可用
 date: 2020-03-30 15:54:01
-tags: [Linux,Mysql]
-category: Mysql
+draft: false
+tags: ["Linux","Mysql"]
+category: ["Mysql"]
 ---
 一 安装前准备
 1、检查是否已经安装过mysql，执行命令

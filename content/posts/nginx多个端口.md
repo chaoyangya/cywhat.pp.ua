@@ -1,8 +1,9 @@
 ---
 title: nginx解决多个端口映射80的配置
 date: 2021-04-16 10:12:11
-tags: [Nginx,Linux]
-category: Nginx
+draft: false
+tags: ["Nginx","Linux"]
+category: ["Nginx"]
 ---
 
 

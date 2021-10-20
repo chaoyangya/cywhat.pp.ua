@@ -1,8 +1,9 @@
 ---
 title: Linux/macos安装newman
 date: 2021-03-22 16:06:15
-tags: [Linux,Newman,Node]
-category: Newman
+draft: false
+tags: ["Linux","Newman","Node"]
+category: ["Newman"]
 ---
 [已解决]Linux/macos安装newman
 

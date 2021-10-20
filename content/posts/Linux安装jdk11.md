@@ -1,8 +1,9 @@
 ---
 title: Linux安装jdk11
 date: 2021-09-18 17:47:51
-tags: [Jdk,Linux]
-category: Jdk
+draft: false
+tags: ["Jdk","Linux"]
+category: ["Jdk"]
 ---
 
 ## 1.下载jdk

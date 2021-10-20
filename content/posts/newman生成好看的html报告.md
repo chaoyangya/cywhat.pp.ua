@@ -1,8 +1,9 @@
 ---
 title: newman生成好看的html报告
 date: 2021-08-18 10:38:09
-tags: [Postman,Newman,Jenkins]
-category: Newman
+draft: false
+tags: ["Postman","Newman","Jenkins"]
+category: ["Newman"]
 ---
 PS:运行newman需要```node``` 版本大于10
 
@@ -33,4 +34,4 @@ run 后面跟接口脚本json格式的文件
 --reporter-htmlextra-export 指定生成的html文件名和路径
 ```
 
-{% asset_img img6.png This is an test image %}
+![img6](/img/img6.png)

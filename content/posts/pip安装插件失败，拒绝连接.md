@@ -1,8 +1,9 @@
 ---
 title: pip安装插件失败，拒绝连接
 date: 2021-03-30 11:51:17
-tags: [Pip,Python]
-category: Pip
+draft: false
+tags: ["Pip","Python"]
+category: ["Pip"]
 ---
 
 WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7ff8fba5f080>, 'Connection to mirrors.aliyn.com timed out. (connect timeout=15)')': /pypi/simple/python-jenkins/

@@ -1,8 +1,9 @@
 ---
 title: npm缺少css-loader，/style-compiler，stylus-loader问题，npm没有权限无法全局更新问题
 date: 2018-10-17 16:08:00
-tags: [Node,Npm]
-category: Npm
+draft: false
+tags: ["Node","Npm"]
+category: ["Npm"]
 ---
 ​
 ERROR in ./node_modules/css-loader!./node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-a5e4f82a","scoped":false,"hasInlineConfig":false}!./node_modules/stylus-loader?{"import":["~@didi/ada/style/mixins.styl","/home/xiaoju/manhattan-hera-webapp/client/style/base.styl"]}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./client/components/panel_links.vue

@@ -1,8 +1,9 @@
 ---
 title: hexo迁移需要进行安装的一些依赖
 date: 2021-09-24 17:51:42
-tags: Hexo
-category: Hexo
+draft: false
+tags: ["Hexo"]
+category: ["Hexo"]
 ---
 
 前景：

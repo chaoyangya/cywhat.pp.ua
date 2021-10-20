@@ -1,8 +1,9 @@
 ---
 title: Iterm2/Mac自带终端工具快速ssh
 date: 2019-01-26 11:13:00
-tags: [Iterm2,Mac]
-category: Iterm2
+draft: false
+tags: ["Iterm2","Mac"]
+category: ["Iterm2"]
 ---
 
 ## 一、

@@ -1,8 +1,9 @@
 ---
 title: Linux快捷进入长目录的方法
 date: 2018-11-02 16:16:00
-tags: Linux
-category: Linux
+draft: false
+tags: ["Linux"]
+category: ["Linux"]
 ---
 
 1、将上述设置写到家目录的```.bashrc```文件中（~/.bashrc）

@@ -1,8 +1,9 @@
 ---
 title: hexo修改新建文章的默认字段
 date: 2021-07-09 14:33:15
-tags: Hexo
-category: Hexo
+draft: false
+tags: ["Hexo"]
+category: ["Hexo"]
 ---
 
 **因为每次新建文章都需要自己新增字段,所以就找到了修改新建文章的默认字段所在地,果然社会的进步跟人的偷懒也不是毫无关系(啊哈哈哈)**

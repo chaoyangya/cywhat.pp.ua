@@ -1,8 +1,9 @@
 ---
 title: Django发送邮箱验证码实现以及邮箱html模板
 date: 2021-09-08 14:40:18
-tags: [Django,Html]
-category: Django
+draft: false
+tags: ["Django","Html"]
+category: ["Django"]
 ---
 
 ## 1.setting配置
@@ -19,9 +20,11 @@ EMAIL_FROM = "xxxx@163.com"  # 邮箱来自 一般和邮箱账号保持一致
 ## 2.邮箱配置
 ```python
 #登录邮箱-设置-POP3/SMTP/IMAP,开启服务，保存授权码，切记要保存，授权码就是密码
-如图：
+如图:
 ```
-{% asset_img img17.png 邮箱配置 %}
+
+![img19](/img/img19.png)
+
 
 ## 3.代码部分
 ```python
@@ -185,4 +188,5 @@ def clean_email(self):
 ```
 
 ## 5.效果图如下：
-{% asset_img img16.png 验证码 %}
+
+![img18](/img/img18.png)

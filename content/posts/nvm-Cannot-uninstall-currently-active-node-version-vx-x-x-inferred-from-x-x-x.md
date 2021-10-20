@@ -3,8 +3,9 @@ title: >-
   nvm: Cannot uninstall currently-active node version, vx.x.x (inferred from
   x.x.x)
 date: 2021-07-14 17:14:24
-tags: [Nvm,Node,Npm]
-category: Npm
+draft: false
+tags: ["Nvm","Node","Npm"]
+category: ["Npm"]
 ---
 
 #使用nvm卸载node版本时报错如下:

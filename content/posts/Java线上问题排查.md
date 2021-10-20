@@ -1,8 +1,9 @@
 ---
 title: Java线上问题排查
 date: 2021-07-20 10:03:12
-tags: Java
-category: Java
+draft: false
+tags: ["Java"]
+category: ["Java"]
 ---
 
 ## top 查看占用资源信息以及pid

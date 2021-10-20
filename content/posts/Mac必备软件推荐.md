@@ -1,8 +1,9 @@
 ---
 title: Mac必备软件推荐
 date: 2021-09-10 14:54:10
-tags: Mac
-category: Mac
+draft: false
+tags: ["Mac"]
+category: ["Mac"]
 ---
 
 # 

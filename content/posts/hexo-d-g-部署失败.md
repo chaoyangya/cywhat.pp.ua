@@ -1,8 +1,9 @@
 ---
 title: hexo d -g 部署失败
 date: 2021-08-17 18:07:39
-tags: Hexo
-category: Hexo
+draft: false
+tags: ["Hexo"]
+category: ["Hexo"]
 ---
 
 hexo d -g 突然部署失败,报错如下:
@@ -16,7 +17,9 @@ $ fatal: unable to access 'https://github.com/xxxxx/xxxx.git/': The requested UR
 ```bash
 $ vim _config.yml   #将https的地址更改为git开头的地址,如图
 ```
-{% asset_img img4.png This is an test image %}
+
+![img4](/img/img4.png)
+
 
 
 ## 2.检查发布机器和github之间的公私钥是否配对

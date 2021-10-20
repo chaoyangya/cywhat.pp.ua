@@ -1,4 +1,4 @@
-baseURL = "https://cywhats.herokuapp.com/"
+baseURL = "https://cywhat.pp.ua"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
@@ -29,6 +29,13 @@ preserveTaxonomyNames = true
 #
 disablePathToLower = true
 
+#兼容hexo引用文件路径
+[frontmatter]
+date = [":filename", ":default"]
+
+[permalinks]
+posts = "/:year/:month/:day/:slug"
+
 [languages]
 
   [languages.zh-cn]
@@ -53,7 +60,7 @@ disablePathToLower = true
         pre = ""
         # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
         post = ""
-        name = "所有文章"
+        name = "文章"
         url = "/posts/"
         title = ""
         weight = 1
@@ -104,7 +111,7 @@ disablePathToLower = true
       [languages.zh-cn.params.search]
         enable = true
         # 搜索引擎的类型 ("lunr", "algolia")
-        type = "lunr"
+        type = "algolia"
         # 文章内容最长索引长度
         contentLength = 4000
         # 搜索框的占位提示语
@@ -118,12 +125,9 @@ disablePathToLower = true
         # 是否在搜索索引中使用基于 baseURL 的绝对路径
         absoluteURL = true
         [languages.zh-cn.params.search.algolia]
-            index = ""
-            appID = ""
-            searchKey = ""
-#           index = "index.zh-cn"
-#           appID = "PASDMWALPK"
-#           searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+          index = "cywhat.search"
+          appID = "30ZL06YNBE"
+          searchKey = "9804d4f0420c79d2575243b039a81370"
       # 主页信息设置
       [languages.zh-cn.params.home]
         # RSS 文章数目
@@ -252,7 +256,7 @@ disablePathToLower = true
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = ""
+      logo = "/img/favicon.ico"
       # title name
       # 标题名称
       name = "cywhat's blog"
@@ -465,8 +469,8 @@ disablePathToLower = true
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = true
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        appId = "FWDPvzYo5Ip3RJ0e0ed2GqOm-MdYXbMMI"
+        appKey = "U3pRQzbe2MecHMafDhaAaoRQ"
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -476,7 +480,7 @@ disablePathToLower = true
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = "https://leancloud.hugoloveit.com"
+        serverURLs = "https://cywhat.netlify.app"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/LoveIt/assets/data/emoji/" directory
@@ -543,7 +547,7 @@ disablePathToLower = true
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "cywhat"
         logoUrl = "/images/avatar.png"
 
   # TypeIt config
