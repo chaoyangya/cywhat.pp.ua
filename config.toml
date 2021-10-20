@@ -480,7 +480,7 @@ posts = "/:year/:month/:day/:slug"
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = "https://cywhat.netlify.app"
+        serverURLs = "https://cywhat.pp.ua"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/LoveIt/assets/data/emoji/" directory
@@ -677,7 +677,7 @@ posts = "/:year/:month/:day/:slug"
 [author]
   name = "cywhat"
   email = "cywhat@cywhat.cn"
-  link = "https://cywhat.cn"
+  link = "https://cywhacywhat.netlify.appt.cn"
 
 # Sitemap config
 # 网站地图配置
