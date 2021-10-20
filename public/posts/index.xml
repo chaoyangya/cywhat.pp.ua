@@ -4,14 +4,7 @@
         <link>https://cywhat.pp.ua/posts/</link>
         <description>所有文章 | cywhat&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>cywhat@cywhat.cn (cywhat)</managingEditor>
-            <webMaster>cywhat@cywhat.cn (cywhat)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 15 Oct 2021 17:11:36 &#43;0800</lastBuildDate><atom:link href="https://cywhat.pp.ua/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Fonts.googleapis</title>
-    <link>https://cywhat.pp.ua/fonts.googleapis.com%E8%AE%BF%E9%97%AE%E8%BE%83%E6%85%A2/</link>
-    <pubDate>Fri, 15 Oct 2021 17:11:36 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://cywhat.pp.ua/fonts.googleapis.com%E8%AE%BF%E9%97%AE%E8%BE%83%E6%85%A2/</guid>
-    <description><![CDATA[title: &lsquo;fonts.googleapis.com访问较慢[已解决]&rsquo; date: 2021-10-12 18:14:32 前景： 自己写的测试工具发现最近打开页面时快时慢]]></description>
-</item><item>
+            <webMaster>cywhat@cywhat.cn (cywhat)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 12 Oct 2021 18:14:32 &#43;0000</lastBuildDate><atom:link href="https://cywhat.pp.ua/posts/" rel="self" type="application/rss+xml" /><item>
     <title>fonts.googleapis.com访问较慢[已解决]</title>
     <link>https://cywhat.pp.ua/fonts-googleapis-com%E8%AE%BF%E9%97%AE%E8%BE%83%E6%85%A2-%E5%B7%B2%E8%A7%A3%E5%86%B3/</link>
     <pubDate>Tue, 12 Oct 2021 18:14:32 &#43;0000</pubDate>
@@ -74,5 +67,12 @@
     <author>作者</author>
     <guid>https://cywhat.pp.ua/Django%E8%87%AA%E5%AE%9A%E4%B9%89404%E9%A1%B5%E9%9D%A2/</guid>
     <description><![CDATA[前景： 使用django部署的web应用，在url错误的情况下，页面会报错简单的404页面，并不美观 Django版本：1.11.7 高于2.0版]]></description>
+</item><item>
+    <title>Mac必备软件推荐</title>
+    <link>https://cywhat.pp.ua/Mac%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
+    <pubDate>Fri, 10 Sep 2021 14:54:10 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://cywhat.pp.ua/Mac%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
+    <description><![CDATA[前景： 前几天系统降级了，发现之前使用的一些得心应手的app忘记名字了，很难找，不过最后还是在时间机器里找到了，特意开帖记录分享一下，常见的就]]></description>
 </item></channel>
 </rss>
