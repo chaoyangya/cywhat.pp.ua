@@ -232,7 +232,7 @@ posts = "/:year/:month/:day/:slug"
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/logo.png"]
+  images = [""]
 
   # Header config
   # 页面头部导航栏配置
@@ -248,13 +248,13 @@ posts = "/:year/:month/:day/:slug"
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = "/themes/static/favicon.ico"
+      logo = ""
       # title name
       # 标题名称
       name = "cywhat's blog"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
+      # pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -288,8 +288,14 @@ posts = "/:year/:month/:day/:slug"
     # 许可协议信息 (支持 HTML 格式)
     license= '<a rel="license external nofollow noopener noreffer" href="#" target="_blank">Do not go gentle into that good night.</a>'
 
+  # 文章打赏
+  [params.reward]
+    enable = true
+    wechat = "/img/WechatPay.jpeg"           # 微信二维码
+    alipay = "/img/Alipay.jpeg"
   # Section (all posts) page config
   # Section (所有文章) 页面配置
+
   [params.section]
     # special amount of posts in each section page
     # section 页面每页显示文章数量
@@ -669,7 +675,7 @@ posts = "/:year/:month/:day/:slug"
 [author]
   name = "cywhat"
   email = "cywhat@cywhat.cn"
-  link = "https://cywhacywhat.netlify.appt.cn"
+  link = "https://cywhat.pp.ua"
 
 # Sitemap config
 # 网站地图配置
