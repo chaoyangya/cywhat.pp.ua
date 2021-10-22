@@ -1,4 +1,4 @@
-baseURL = "https://cywhat.pp.ua"
+baseURL = "https://cywhat.cn"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
@@ -675,7 +675,7 @@ posts = "/:year/:month/:day/:slug"
 [author]
   name = "cywhat"
   email = "cywhat@cywhat.cn"
-  link = "https://cywhat.pp.ua"
+  link = "https://cywhat.cn"
 
 # Sitemap config
 # 网站地图配置
