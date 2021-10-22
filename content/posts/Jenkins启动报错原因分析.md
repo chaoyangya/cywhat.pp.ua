@@ -3,7 +3,7 @@ title: Jenkins启动报错原因分析
 date: 2021-09-18 17:58:18
 draft: false
 tags: ["Jenkins"]
-category: ["Jenkins"]
+categories: ["Jenkins"]
 ---
 
 ## 1.启动jenkins

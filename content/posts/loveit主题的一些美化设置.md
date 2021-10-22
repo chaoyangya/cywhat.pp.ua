@@ -3,7 +3,7 @@ title: "Loveit主题的一些美化设置"
 date: 2021-10-21T16:08:45+08:00
 draft: false
 tags: ["Hugo","Loveit"]
-category: ["Hugo","Loveit"]
+categories: ["Hugo","Loveit"]
 ---
 
 {{< admonition type=tip title="前景" open=true >}}

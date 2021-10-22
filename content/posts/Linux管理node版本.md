@@ -3,7 +3,7 @@ title: Linux管理node版本
 date: 2021-04-07 17:39:32
 draft: false
 tags: ["Linux","Node"]
-category: ["Node"]
+categories: ["Node"]
 ---
 
 

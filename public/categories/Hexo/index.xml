@@ -12,6 +12,13 @@
     <guid>https://cywhat.cn/hexo%E8%BF%81%E7%A7%BB%E9%9C%80%E8%A6%81%E8%BF%9B%E8%A1%8C%E5%AE%89%E8%A3%85%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BE%9D%E8%B5%96/</guid>
     <description><![CDATA[前景： 更换新设备 or 更换新工作环境需要重新本地部署hexo环境,需要有整个工程的文件夹 1.安装hexo 1 npm install -g hexo-cli 2.安装node_moudle]]></description>
 </item><item>
+    <title>解决hexo图片不展示问题</title>
+    <link>https://cywhat.cn/%E8%A7%A3%E5%86%B3hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E5%B1%95%E7%A4%BA%E9%97%AE%E9%A2%98/</link>
+    <pubDate>Wed, 18 Aug 2021 16:12:40 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://cywhat.cn/%E8%A7%A3%E5%86%B3hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E5%B1%95%E7%A4%BA%E9%97%AE%E9%A2%98/</guid>
+    <description><![CDATA[1.更改hexo配置文件 1 $ vim _config.yml #配置_config.yml里面的post_asset_folder:false 设置为 true 如图 2.安装npm插]]></description>
+</item><item>
     <title>hexo d -g 部署失败</title>
     <link>https://cywhat.cn/hexo-d-g-%E9%83%A8%E7%BD%B2%E5%A4%B1%E8%B4%A5/</link>
     <pubDate>Tue, 17 Aug 2021 18:07:39 &#43;0000</pubDate>

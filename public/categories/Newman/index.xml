@@ -11,5 +11,12 @@
     <author>作者</author>
     <guid>https://cywhat.cn/newman%E7%94%9F%E6%88%90%E5%A5%BD%E7%9C%8B%E7%9A%84html%E6%8A%A5%E5%91%8A/</guid>
     <description><![CDATA[PS:运行newman需要node 版本大于10 1.安装newman 1 $ npm install -g newman 2.安装普通html报告插件(建议安装) 1 $ npm install -g newman-reporter-html 3.安装美]]></description>
+</item><item>
+    <title>Linux/macos安装newman</title>
+    <link>https://cywhat.cn/Linux-macos%E5%AE%89%E8%A3%85newman/</link>
+    <pubDate>Mon, 22 Mar 2021 16:06:15 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://cywhat.cn/Linux-macos%E5%AE%89%E8%A3%85newman/</guid>
+    <description><![CDATA[[已解决]Linux/macos安装newman 一、安装Node环境（1/2选其一即可） 官网下载node包，并上传到linux服务器 1 https://nodejs.org/en/download/ wg]]></description>
 </item></channel>
 </rss>

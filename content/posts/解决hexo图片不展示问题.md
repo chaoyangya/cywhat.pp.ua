@@ -3,7 +3,7 @@ title: 解决hexo图片不展示问题
 date: 2021-08-18 16:12:40 
 draft: false 
 tags: ["Hexo"]
-category: ["Hexo"]
+categories: ["Hexo"]
 ---
 
 ## 1.更改hexo配置文件

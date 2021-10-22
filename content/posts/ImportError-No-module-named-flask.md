@@ -3,7 +3,7 @@ title: 'ImportError: No module named flask'
 date: 2020-03-06 17:43:17
 draft: false
 tags: ["Linux","Flask"]
-category: ["Flask"]
+categories: ["Flask"]
 ---
 
 1、删除原有的用大写开头的Flask插件

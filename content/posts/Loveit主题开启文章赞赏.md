@@ -3,7 +3,7 @@ title: "Loveit主题开启文章赞赏"
 date: 2021-10-21T16:36:41+08:00 
 draft: false 
 tags: ["Hugo","Loveit"]
-category: ["Hugo","Loveit"]
+categories: ["Hugo","Loveit"]
 ---
 
 {{< admonition type=tip title="小tips" open=true >}} 

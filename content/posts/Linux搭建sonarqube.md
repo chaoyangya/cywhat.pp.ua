@@ -3,7 +3,7 @@ title: Linux搭建sonarqube
 date: 2021-09-22 16:35:47
 draft: false
 tags: ["Sonarqube","Linux"]
-category: ["Sonarqube"]
+categories: ["Sonarqube"]
 ---
 
 **前言**

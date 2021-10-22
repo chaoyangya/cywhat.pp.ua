@@ -3,7 +3,7 @@ title: Linux中常用来查看进程的命令
 date: 2018-12-25 20:12:00
 draft: false
 tags: ["Linux"]
-category: ["Linux"]
+categories: ["Linux"]
 ---
 查看所有运行中的进程:
 ```bash

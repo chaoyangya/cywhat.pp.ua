@@ -3,7 +3,7 @@ title: "Loveit开启评论功能"
 date: 2021-10-21T17:07:26+08:00
 draft: false
 tags: ["Hugo","Loveit"]
-category: ["Hugo","Loveit"]
+categories: ["Hugo","Loveit"]
 ---
 
 {{< admonition type=tip title="小tips" open=true >}} 
