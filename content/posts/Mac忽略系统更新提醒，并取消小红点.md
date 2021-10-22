@@ -3,7 +3,7 @@ title: Mac忽略系统更新提醒，并取消小红点
 date: 2021-09-07 14:58:29
 draft: false
 tags: ["Mac"]
-category: ["Mac"]
+categories: ["Mac"]
 ---
 ## 1.首先关掉系统的自动更新设置**
 ```bash

@@ -2,7 +2,7 @@
 title: mac 安装brew
 date: 2020-03-18 15:56:49
 tags: [Mac,Brew]
-category: Mac
+categories: ["Mac"]
 ---
 
 ##  【已解决】mac 安装brew
