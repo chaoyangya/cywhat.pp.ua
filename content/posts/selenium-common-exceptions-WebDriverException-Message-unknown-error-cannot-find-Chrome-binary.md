@@ -5,7 +5,7 @@ title: >-
 date: 2021-08-20 17:23:21
 draft: false
 tags: ["Selenium","Linux"]
-category: ["Selenium"]
+categories: ["Selenium"]
 ---
 
 报错: selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary

@@ -3,7 +3,7 @@ title: Django中的form表单校验
 date: 2021-09-24 18:20:37 
 draft: false
 tags: ["Django"] 
-category: ["Django"] 
+categories: ["Django"] 
 ---
 
 **前景：**

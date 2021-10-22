@@ -3,7 +3,7 @@ title: Postmant压力测试
 date: 2019-03-28 18:16:00
 draft: false
 tags: ["Postman"]
-category: ["Postman"]
+categories: ["Postman"]
 ---
 
 Postman请自行下载

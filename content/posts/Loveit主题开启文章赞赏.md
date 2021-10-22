@@ -32,7 +32,7 @@ title: "xxxx"
 date: 2021-10-21T16:36:41+08:00 
 draft: false 
 tags: ["xxx","xxx"]
-category: ["xxx","xxx"]
+categories: ["xxx","xxx"]
 reward: false                               # flase关闭该文章打赏功能
 ```
 

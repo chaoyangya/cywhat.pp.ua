@@ -3,7 +3,7 @@ title: Centos7.7安装并配置jenkins+python+allure发送定制化报告
 date: 2020-09-03 15:34:13
 draft: false
 tags: ["Python","Jenkins","Allure","Linux"]
-category: ["Python"]
+categories: ["Python"]
 ---
 
 

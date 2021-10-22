@@ -3,7 +3,7 @@ title: Git基础命令
 date: 2019-10-23 15:32:00
 draft: false
 tags: ["Git"]
-category: ["Git"]
+categories: ["Git"]
 ---
 
 

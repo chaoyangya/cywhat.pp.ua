@@ -3,7 +3,7 @@ title: Django发送邮箱验证码实现以及邮箱html模板
 date: 2021-09-08 14:40:18
 draft: false
 tags: ["Django","Html"]
-category: ["Django"]
+categories: ["Django"]
 ---
 
 ## 1.setting配置

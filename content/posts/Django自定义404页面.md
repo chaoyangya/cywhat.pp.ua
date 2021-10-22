@@ -3,7 +3,7 @@ title: Django自定义404页面
 date: 2021-09-17 19:52:13
 draft: false
 tags: ["Django"]
-category: ["Django"]
+categories: ["Django"]
 ---
 
 ### 前景：

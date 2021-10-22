@@ -3,7 +3,7 @@ title: 'Error taking device screenshot: null'
 date:  2018-10-11 19:42:00
 draft: false
 tags: ["Android","Appium"]
-category: ["Appium"]
+categories: ["Appium"]
 ---
 使用```uiautomatorviewer``` 查看Android某些页面元素，出现如图错误：
 ```bash

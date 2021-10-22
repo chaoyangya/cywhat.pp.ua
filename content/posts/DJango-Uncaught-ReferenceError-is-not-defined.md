@@ -3,7 +3,7 @@ title: 'DJango Uncaught ReferenceError: $ is not defined'
 date: 2021-08-31 17:12:16
 draft: false
 tags: ["Django","Jquery"]
-category: ["Jquery"]
+categories: ["Jquery"]
 ---
 
 前提:

@@ -3,7 +3,7 @@ title: hexo优化加载速度
 date: 2021-07-14 15:38:49
 draft: false
 tags: ["Hexo"]
-category: ["Hexo"]
+categories: ["Hexo"]
 ---
 # 注意该方法利用插件更改配置,如主题中有Google字体导致加载缓慢,请移步其他内容
 

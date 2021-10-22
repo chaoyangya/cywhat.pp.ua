@@ -3,7 +3,7 @@ title: hexo d -g 部署失败
 date: 2021-08-17 18:07:39
 draft: false
 tags: ["Hexo"]
-category: ["Hexo"]
+categories: ["Hexo"]
 ---
 
 hexo d -g 突然部署失败,报错如下:

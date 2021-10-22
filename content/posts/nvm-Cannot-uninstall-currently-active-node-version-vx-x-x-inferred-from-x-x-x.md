@@ -5,7 +5,7 @@ title: >-
 date: 2021-07-14 17:14:24
 draft: false
 tags: ["Nvm","Node","Npm"]
-category: ["Npm"]
+categories: ["Npm"]
 ---
 
 #使用nvm卸载node版本时报错如下:

@@ -3,7 +3,7 @@ title: 'fonts.googleapis.com访问较慢[已解决]'
 date: 2021-10-12 18:14:32
 draft: false
 tags: ["Django"]
-category: ["Django"]
+categories: ["Django"]
 ---
 
 **前景：**

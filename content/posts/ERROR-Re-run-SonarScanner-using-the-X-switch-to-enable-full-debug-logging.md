@@ -3,7 +3,7 @@ title: 'ERROR: Re-run SonarScanner using the -X switch to enable full debug logg
 date: 2021-09-23 11:25:17
 draft: false
 tags: ["Jenkins","Sonarqube"]
-category: ["Sonarqube"]
+categories: ["Sonarqube"]
 ---
 
 **前景**

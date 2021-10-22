@@ -33,6 +33,10 @@ disablePathToLower = true
 [frontmatter]
 date = [":filename", ":default"]
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [permalinks]
 posts = "/:year/:month/:day/:slug"
 
@@ -73,13 +77,21 @@ posts = "/:year/:month/:day/:slug"
         title = ""
         weight = 2
       [[languages.zh-cn.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "分类"
+        url = "/categories/"
+        title = ""
+        weight = 3
+      [[languages.zh-cn.menu.main]]
         identifier = "about"
         pre = ""
         post = ""
         name = "关于"
         url = "/about/"
         title = ""
-        weight = 3
+        weight = 4
     [languages.zh-cn.params]
       # 网站描述
       description = "关于 LoveIt 主题"
@@ -92,13 +104,13 @@ posts = "/:year/:month/:day/:slug"
         # 是否隐藏网站图标资源链接
         noFavicon = false
         # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-        svgFavicon = "favicon.ico"
+        svgFavicon = "/headers/favicon.ico"
         # Android 浏览器主题色
         themeColor = "#ffffff"
         # Safari 图标颜色
         iconColor = "#5bbad5"
         # Windows v8-10 磁贴颜色
-        tileColor = "#da532c"
+        tileColor = "#da532da532cc"
       # 搜索配置
       [languages.zh-cn.params.search]
         enable = true
@@ -586,10 +598,10 @@ posts = "/:year/:month/:day/:slug"
   # Analytics config
   # 网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-GFWQKR5Q8D"
       # whether to anonymize IP
       # 是否匿名化用户 IP
       anonymizeIP = true
@@ -675,7 +687,7 @@ posts = "/:year/:month/:day/:slug"
 [author]
   name = "cywhat"
   email = "cywhat@cywhat.cn"
-  link = "https://cywhat.cn"
+  link = "https://cywhat.pp.ua"
 
 # Sitemap config
 # 网站地图配置

@@ -3,7 +3,7 @@ title: 'sed: -e expression #1, char 24: unknown option to ''s'' '
 date: 2021-08-17 18:15:24
 draft: false
 tags: ["Linux","Sed"]
-category: ["Linux"]
+categories: ["Linux"]
 ---
 
 在使用 ```sed -e``` 批量替换命令时候,报错如下:

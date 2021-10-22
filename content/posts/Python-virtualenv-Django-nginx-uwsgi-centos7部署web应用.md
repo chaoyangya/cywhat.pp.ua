@@ -2,7 +2,7 @@
 title: Python+virtualenv+Django+nginx+uwsgi+centos7部署web应用
 date: 2021-03-11 17:09:24
 draft: false
-tags: ["Python","Linux","Nginx","Django","Uwsgi","Virtualenv"]
+tags: ["Linux","Nginx","Django"]
 category: ["Python"]
 ---
 

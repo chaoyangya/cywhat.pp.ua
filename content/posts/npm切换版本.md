@@ -3,7 +3,7 @@ title: npm切换版本
 date: 2021-07-14 17:18:21
 draft: false
 tags: ["Npm","Node"]
-category: ["Npm"]
+categories: ["Npm"]
 ---
 
 # Npm切换版本

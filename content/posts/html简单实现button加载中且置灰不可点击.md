@@ -3,7 +3,7 @@ title: html简单实现button加载中且置灰不可点击
 date: 2021-09-09 11:26:12 
 draft: false
 tags: ["Html","JS"]
-category: ["Html"]
+categories: ["Html"]
 ---
 
 ## 简单js几行代码实现点击按钮,实现加载中，且置灰不可点击

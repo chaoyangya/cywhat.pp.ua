@@ -3,7 +3,7 @@ title: hexo+netlify+git+个人域名搭建博客
 date: 2021-07-12 14:52:22
 draft: false
 tags: ["Hexo","Netlify","Git"]
-category: ["Hexo"]
+categories: ["Hexo"]
 ---
 
 **部署过程需要用到一些```Linux```命令,且本文部署操作机为Mac,如是Windows不保证能100%成功噢**

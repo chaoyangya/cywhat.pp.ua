@@ -3,7 +3,7 @@ title: hexo管理多个标签
 date: 2021-07-08 18:07:20
 draft: false
 tags: ["Hexo"]
-category: ["Hexo"]
+categories: ["Hexo"]
 ---
 
 ## 1 hexo多个标签应该遵循 **list** 格式,如下

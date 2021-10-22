@@ -3,7 +3,7 @@ title: 'no such table:django_session'
 date: 2021-04-01 17:51:03
 draft: false
 tags: ["Django"]
-category: ["Django"]
+categories: ["Django"]
 ---
 
 

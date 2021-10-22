@@ -3,7 +3,7 @@ title: newman生成好看的html报告
 date: 2021-08-18 10:38:09
 draft: false
 tags: ["Postman","Newman","Jenkins"]
-category: ["Newman"]
+categories: ["Newman"]
 ---
 PS:运行newman需要```node``` 版本大于10
 

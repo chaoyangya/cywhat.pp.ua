@@ -3,7 +3,7 @@ title: git branch出现end需要q才能退出
 date: 2021-04-01 17:54:22
 draft: false
 tags: ["Git"]
-category: ["Git"]
+categories: ["Git"]
 ---
 
 git 进入了编辑模式

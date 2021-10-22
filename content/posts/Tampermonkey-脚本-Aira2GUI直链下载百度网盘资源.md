@@ -3,7 +3,7 @@ title: Tampermonkey+脚本+Aira2GUI直链下载百度网盘资源
 date: 2021-09-03 14:42:33
 draft: false
 tags: ["Tampermonkey"]
-category: ["Tampermonkey"]
+categories: ["Tampermonkey"]
 ---
 
 前景：
