@@ -4,16 +4,9 @@
         <link>https://cywhat.cn/</link>
         <description>关于 LoveIt 主题</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>cywhat@cywhat.cn (cywhat)</managingEditor>
-            <webMaster>cywhat@cywhat.cn (cywhat)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 22 Oct 2021 17:07:32 &#43;0800</lastBuildDate>
+            <webMaster>cywhat@cywhat.cn (cywhat)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 21 Oct 2021 17:07:26 &#43;0800</lastBuildDate>
             <atom:link href="https://cywhat.cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Ceshi</title>
-    <link>https://cywhat.cn/ceshi/</link>
-    <pubDate>Fri, 22 Oct 2021 17:07:32 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://cywhat.cn/ceshi/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
     <title>Loveit开启评论功能</title>
     <link>https://cywhat.cn/Loveit%E5%BC%80%E5%90%AF%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/</link>
     <pubDate>Thu, 21 Oct 2021 17:07:26 &#43;0800</pubDate>
@@ -76,5 +69,12 @@
     <author>作者</author>
     <guid>https://cywhat.cn/Linux%E6%90%AD%E5%BB%BAsonarqube/</guid>
     <description><![CDATA[前言 Linux版本:centos7.6 Java:Jdk11 SonarQube:8.2.0.32929 PostgreSQL:12 sonar-scanner:4.6.2.2472 1.安装Jdk 安装JDK 2.安装PostgreSQL 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 1.安装镜]]></description>
+</item><item>
+    <title>Jenkins启动报错原因分析</title>
+    <link>https://cywhat.cn/Jenkins%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99%E5%8E%9F%E5%9B%A0%E5%88%86%E6%9E%90/</link>
+    <pubDate>Sat, 18 Sep 2021 17:58:18 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://cywhat.cn/Jenkins%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99%E5%8E%9F%E5%9B%A0%E5%88%86%E6%9E%90/</guid>
+    <description><![CDATA[1.启动jenkins 1 systemctl start jenkins #如果命令不可使用，首先要把jenkins放到系统启动配置中，详情请百度 2.查看jenkins启动状态 1 systemctl status jenkins.service]]></description>
 </item></channel>
 </rss>
