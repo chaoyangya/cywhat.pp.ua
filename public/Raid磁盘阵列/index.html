@@ -5,30 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Linux使用iftop查看带宽占用情况 - cywhat&#39;s blog</title><meta name="Description" content="关于 LoveIt 主题"><meta property="og:title" content="Linux使用iftop查看带宽占用情况" />
-<meta property="og:description" content="查看Linux系统下服务器带宽占用情况，使用iftop 1.安装iftop 1 2 3 centos: yum install iftop debian: apt-get install iftop 2.使用iftop 1 2 3 iftop -i eth1 #查看eth1网" />
+        <title>Raid磁盘阵列 - cywhat&#39;s blog</title><meta name="Description" content="关于 LoveIt 主题"><meta property="og:title" content="Raid磁盘阵列" />
+<meta property="og:description" content="1.什么是Raid 什么是Raid Raid 是英文(Redundant Array of Independent Disks)的缩写，翻译成中文是“独立磁盘冗余阵列”, 简称磁盘阵列（Dis" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://cywhat.cn/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/" />
+<meta property="og:url" content="https://cywhat.cn/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97/" />
 <meta property="og:image" content="https://cywhat.cn"/>
-<meta property="article:published_time" content="2021-11-17T10:16:41+08:00" />
-<meta property="article:modified_time" content="2021-11-17T10:16:41+08:00" />
+<meta property="article:published_time" content="2021-11-18T10:01:24+08:00" />
+<meta property="article:modified_time" content="2021-11-18T10:01:24+08:00" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://cywhat.cn"/>
 
-<meta name="twitter:title" content="Linux使用iftop查看带宽占用情况"/>
-<meta name="twitter:description" content="查看Linux系统下服务器带宽占用情况，使用iftop 1.安装iftop 1 2 3 centos: yum install iftop debian: apt-get install iftop 2.使用iftop 1 2 3 iftop -i eth1 #查看eth1网"/>
+<meta name="twitter:title" content="Raid磁盘阵列"/>
+<meta name="twitter:description" content="1.什么是Raid 什么是Raid Raid 是英文(Redundant Array of Independent Disks)的缩写，翻译成中文是“独立磁盘冗余阵列”, 简称磁盘阵列（Dis"/>
 <meta name="application-name" content="LoveIt">
-<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532da532cc"><link rel="icon" href="/headers/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://cywhat.cn/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/" /><link rel="prev" href="https://cywhat.cn/Loveit%E5%BC%80%E5%90%AF%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/" /><link rel="next" href="https://cywhat.cn/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532da532cc"><link rel="icon" href="/headers/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://cywhat.cn/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97/" /><link rel="prev" href="https://cywhat.cn/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Linux使用iftop查看带宽占用情况",
+        "headline": "Raid磁盘阵列",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/cywhat.cn\/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5\/"
-        },"image": ["https:\/\/cywhat.cn\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Linux","wordcount":  1038 ,
-        "url": "https:\/\/cywhat.cn\/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5\/","datePublished": "2021-11-17T10:16:41+08:00","dateModified": "2021-11-17T10:16:41+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@id": "https:\/\/cywhat.cn\/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97\/"
+        },"image": ["https:\/\/cywhat.cn\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Linux","wordcount":  1222 ,
+        "url": "https:\/\/cywhat.cn\/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97\/","datePublished": "2021-11-18T10:01:24+08:00","dateModified": "2021-11-18T10:01:24+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "cywhat","logo": "https:\/\/cywhat.cn\/images\/avatar.png"},"author": {
                 "@type": "Person",
@@ -102,10 +102,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animated flipInX">Linux使用iftop查看带宽占用情况</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="https://cywhat.pp.ua" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>cywhat</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/Linux/"><i class="far fa-folder fa-fw"></i>Linux</a>&nbsp;<a href="/categories/iftop/"><i class="far fa-folder fa-fw"></i>iftop</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-11-17">2021-11-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1038 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/" class="leancloud_visitors" data-flag-title="Linux使用iftop查看带宽占用情况">
+        </div><article class="page single"><h1 class="single-title animated flipInX">Raid磁盘阵列</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://cywhat.pp.ua" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>cywhat</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/Linux/"><i class="far fa-folder fa-fw"></i>Linux</a>&nbsp;<a href="/categories/Raid/"><i class="far fa-folder fa-fw"></i>Raid</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-11-18">2021-11-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1222 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97/" class="leancloud_visitors" data-flag-title="Raid磁盘阵列">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
@@ -117,216 +117,142 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#1安装iftop">1.安装iftop</a></li>
-        <li><a href="#2使用iftop">2.使用iftop</a></li>
-        <li><a href="#3iftop说明">3.iftop说明</a></li>
-        <li><a href="#4iftop其他命令">4.iftop其他命令</a></li>
-        <li><a href="#5进去监控界面可使用的命令详情">5.进去监控界面可使用的命令详情</a></li>
+        <li><a href="#1什么是raid">1.什么是Raid</a></li>
+        <li><a href="#2raid的特点">2.Raid的特点</a></li>
+        <li><a href="#3raid的几种模式">3.Raid的几种模式</a>
+          <ul>
+            <li><a href="#raid-0性能最佳">Raid 0(性能最佳)</a></li>
+            <li><a href="#raid-1最安全">Raid 1(最安全)</a></li>
+            <li><a href="#raid-5性能和安全-55开">Raid 5(性能和安全 55开)</a></li>
+            <li><a href="#raid-10性能和安全-55开">Raid 10(性能和安全 55开)</a></li>
+          </ul>
+        </li>
+        <li><a href="#4raid容错对比图">4.Raid容错对比图</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p>查看Linux系统下服务器带宽占用情况，使用iftop</p>
-<h3 id="1安装iftop">1.安装iftop</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">centos: yum install iftop
-
-debian: apt-get install iftop
-</code></pre></td></tr></table>
+            </div><div class="content" id="content"><h3 id="1什么是raid">1.什么是Raid</h3>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>什么是Raid<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Raid 是英文(Redundant Array of Independent Disks)的缩写，翻译成中文是“独立磁盘冗余阵列”, 简称磁盘阵列（Disk Array）。
+简单的说，RAID是一种把多块独立的硬盘（物理硬盘）按不同的方式组合起来形成一个硬盘组（逻辑硬盘），从而提供比单个硬盘更高的存储性能和提供数据备份技术。
+组成磁盘阵列的不同方式称为RAID级别（RAID Levels），现在已拥有了从 RAID 0 到 6 七种基本的RAID 级别。另外，还有一些基本RAID级别的组合形式，如RAID 10（RAID 0与RAID 1的组合）等等.</div>
+        </div>
+    </div>
+<h3 id="2raid的特点">2.Raid的特点</h3>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Raid的特点<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>1.速度</p>
+<p>2.安全</p>
 </div>
-</div><h3 id="2使用iftop">2.使用iftop</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">iftop -i eth1   <span class="c1">#查看eth1网卡的带宽占用情况</span>
-
-iftop -i eth1 -P   <span class="c1">#显示详细端口流量占用</span>
-</code></pre></td></tr></table>
+        </div>
+    </div>
+<h3 id="3raid的几种模式">3.Raid的几种模式</h3>
+<h4 id="raid-0性能最佳">Raid 0(性能最佳)</h4>
+<p>Raid 0 把多块物理硬盘设备（至少两块）通过硬件或软件的方式串联在一起，组成一个大的卷组，并将数据一次写入到各个物理硬盘中。这样硬盘设备的读写性能会提升数倍，但是若任意一块硬盘发生故障将导致整个系统的数据都受到破坏。</p>
+<pre><code>个人俗解：2块硬盘，将数据均分成`俩份`，每块磁盘存`半份`
+</code></pre>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>`Raid 0`的特点<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>1.使用<code>N</code>块硬盘，获得<code>N</code>倍性能，但<code>N&gt;=2</code></p>
+<p>2.不允许磁盘损坏，任何一块磁盘损坏，即无法使用。</p>
 </div>
-</div><h3 id="3iftop说明">3.iftop说明</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">TX:发送流量
-RX:接收流量
-TOTAL:总流量
-Cumm:运行iftop到目前时间的总流量
-peak:流量峰值
-rates分别表示过去2s/10s/40s的平均流量
-</code></pre></td></tr></table>
-</div>
-</div><p><img
+        </div>
+    </div>
+<p><img
         class="lazyload"
         src="/svg/loading.min.svg"
-        data-src="/img/img25.png"
-        data-srcset="/img/img25.png, /img/img25.png 1.5x, /img/img25.png 2x"
+        data-src="/img/img26.png"
+        data-srcset="/img/img26.png, /img/img26.png 1.5x, /img/img26.png 2x"
         data-sizes="auto"
-        alt="/img/img25.png"
-        title="img25" /></p>
-<h3 id="4iftop其他命令">4.iftop其他命令</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">-i设定监测的网卡,如:# iftop -i eth1
-
--B 以bytes为单位显示流量<span class="o">(</span>默认是bits<span class="o">)</span>,如:# iftop -B
-
--n使host信息默认直接都显示IP,如:# iftop -n
-
--N使端口信息默认直接都显示端口号,如: <span class="c1"># iftop -N</span>
-
--F显示特定网段的进出流量,如# iftop -F 10.10.1.0/24或# iftop -F 10.10.1.0/255.255.255.0
-
--h<span class="o">(</span>display this message<span class="o">)</span>,帮助显示参数信息
-
--p使用这个参数后,中间的列表显示的本地主机信息,出现了本机以外的IP信息<span class="p">;</span>
-
--b使流量图形条默认就显示<span class="p">;</span>
-
--f这个暂时还不太会用,过滤计算包用的<span class="p">;</span>
-
--P使host信息及端口信息默认就都显示<span class="p">;</span>
-
--m设置界面最上边的刻度的最大值,刻度分五个大段显示,例: <span class="c1"># iftop -m 100M</span>
-</code></pre></td></tr></table>
+        alt="/img/img26.png"
+        title="img.png" /></p>
+<h4 id="raid-1最安全">Raid 1(最安全)</h4>
+<p>Raid 1 将数据备份到每块磁盘中，使用空间相当于一块硬盘的容量，但是数据再每块硬盘中备份，相对安全性较高</p>
+<pre><code>个人俗解：2块硬盘，每块硬盘存`整份`数据，且相互备份
+</code></pre>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>`Raid 1`的特点<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>1.使用<code>N</code>块硬盘，备份<code>N</code>份数据，且<code>N&gt;=2</code> 硬盘使用率为 <code>(N/100)%</code>，较为浪费资源，但安全性为<code>N</code>。</p>
+<p>2.允许磁盘损坏</p>
 </div>
-</div><h3 id="5进去监控界面可使用的命令详情">5.进去监控界面可使用的命令详情</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">按h切换是否显示帮助<span class="p">;</span>
-
-按n切换显示本机的IP或主机名<span class="p">;</span>
-
-按s切换是否显示本机的host信息<span class="p">;</span>
-
-按d切换是否显示远端目标主机的host信息<span class="p">;</span>
-
-按t切换显示格式为2行/1行/只显示发送流量/只显示接收流量<span class="p">;</span>
-
-按N切换显示端口号或端口服务名称<span class="p">;</span>
-
-按S切换是否显示本机的端口信息<span class="p">;</span>
-
-按D切换是否显示远端目标主机的端口信息<span class="p">;</span>
-
-按p切换是否显示端口信息<span class="p">;</span>
-
-按P切换暂停/继续显示<span class="p">;</span>
-
-按b切换是否显示平均流量图形条<span class="p">;</span>
-
-按B切换计算2秒或10秒或40秒内的平均流量<span class="p">;</span>
-
-按T切换是否显示每个连接的总流量<span class="p">;</span>
-
-按l打开屏幕过滤功能,输入要过滤的字符,比如ip,按回车后,屏幕就只显示这个IP相关的流量信息<span class="p">;</span>
-
-按L切换显示画面上边的刻度<span class="p">;</span>刻度不同,流量图形条会有变化<span class="p">;</span>
-
-按j或按k可以向上或向下滚动屏幕显示的连接记录<span class="p">;</span>
-
-按1或2或3可以根据右侧显示的三列流量数据进行排序<span class="p">;</span>
-
-按&lt;根据左边的本机名或IP排序<span class="p">;</span>
-
-按&gt;根据远端目标主机的主机名或IP排序<span class="p">;</span>
-
-按o切换是否固定只显示当前的连接<span class="p">;</span>
-
-按f可以编辑过滤代码,这是翻译过来的说法,我还没用过这个!
-
-按!可以使用shell命令,这个没用过!搞明白啥命令在这好用呢!
-
-按q退出监控.
-</code></pre></td></tr></table>
+        </div>
+    </div>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/img27.png"
+        data-srcset="/img/img27.png, /img/img27.png 1.5x, /img/img27.png 2x"
+        data-sizes="auto"
+        alt="/img/img27.png"
+        title="img.png" /></p>
+<h4 id="raid-5性能和安全-55开">Raid 5(性能和安全 55开)</h4>
+<p>Raid 5 把多块硬盘设备（至少三块）的数据奇偶校验信息保存到其他硬盘设备中。
+Raid 5 磁盘阵列组中数据的奇偶校验信息并不是单独保存到某一块硬盘设备中，而是存储到除自身以外的其他每一块硬盘设备上，这样的好处是其中任何一设备损坏后不至于出现致命缺陷；</p>
+<pre><code>个人俗解：3块硬盘，每块硬盘分`3`份，存`2`份数据，`1`份校验，且互相为奇偶
+</code></pre>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>`Raid 5`的特点<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>1.使用<code>N</code>块硬盘，备份<code>N</code>份数据，且<code>N&gt;=3</code> 硬盘使用率为 <code>(N-1/N)%</code>，较为浪费资源，但安全性为<code>N</code>。</p>
+<p>2.允许磁盘损坏且仅能坏<code>1</code>块</p>
 </div>
-</div><div class="post-reward">
+        </div>
+    </div>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/img28.png"
+        data-srcset="/img/img28.png, /img/img28.png 1.5x, /img/img28.png 2x"
+        data-sizes="auto"
+        alt="/img/img28.png"
+        title="img.png" /></p>
+<h4 id="raid-10性能和安全-55开">Raid 10(性能和安全 55开)</h4>
+<p>Raid 10 是Raid1 + Raid 0技术的一个组合体。如下图，Raid 10 技术需要至少四块硬盘来组建，其中先分别两两制作成Raid 1磁盘阵列，以保证数据的安全性；然后再对两个Raid 1磁盘阵列实施Raid 0技术，进一步提高硬盘设备的读写速度。这样子从理论上讲，只要坏的不是同一组中的所有硬盘，那么最多可以损坏50%的硬盘设备而不丢失数据。Raid 10技术继承了Raid 0的高读写速度和Raid 1的数据安全性。
+个人俗解：4块硬盘，每<code>2</code>块硬盘分<code>1</code>份数据，组合成 Raid 1，俩个Raid 1 再组合成Raid 0</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>`Raid 10`的特点<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>1.使用<code>N</code>块硬盘，备份<code>N</code>份数据，且<code>N&gt;=4</code> 硬盘使用率为 <code>(50)%</code>，较为浪费资源，但安全性为<code>N</code>。</p>
+<p>2.允许一组Raid 磁盘损坏且仅能坏<code>1</code>块</p>
+</div>
+        </div>
+    </div>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/img29.png"
+        data-srcset="/img/img29.png, /img/img29.png 1.5x, /img/img29.png 2x"
+        data-sizes="auto"
+        alt="/img/img29.png"
+        title="img.png" /></p>
+<h3 id="4raid容错对比图">4.Raid容错对比图</h3>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/img30.png"
+        data-srcset="/img/img30.png, /img/img30.png 1.5x, /img/img30.png 2x"
+        data-sizes="auto"
+        alt="/img/img30.png"
+        title="img.png" /></p>
+<div class="post-reward">
     <input type="checkbox" name="reward" id="reward" hidden/>
     <label class="reward-button" for="reward">赞赏支持</label>
     <div class="qr-code">
@@ -344,14 +270,14 @@ rates分别表示过去2s/10s/40s的平均流量
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2021-11-17</span>
+                <span>更新于 2021-11-18</span>
             </div>
             <div class="post-info-license"></div>
         </div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://cywhat.cn/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/" data-title="Linux使用iftop查看带宽占用情况" data-hashtags="Linux"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://cywhat.cn/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/" data-hashtag="Linux"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://cywhat.cn/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/" data-title="Linux使用iftop查看带宽占用情况"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://cywhat.cn/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/" data-title="Linux使用iftop查看带宽占用情况"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://cywhat.cn/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/" data-title="Linux使用iftop查看带宽占用情况"><i class="fab fa-weibo fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://cywhat.cn/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97/" data-title="Raid磁盘阵列" data-hashtags="Linux"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://cywhat.cn/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97/" data-hashtag="Linux"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://cywhat.cn/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97/" data-title="Raid磁盘阵列"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://cywhat.cn/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97/" data-title="Raid磁盘阵列"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://cywhat.cn/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97/" data-title="Raid磁盘阵列"><i class="fab fa-weibo fa-fw"></i></a></span>
             </div>
         </div>
     </div>
@@ -363,8 +289,7 @@ rates分别表示过去2s/10s/40s的平均流量
         </section>
     </div>
 
-    <div class="post-nav"><a href="/Loveit%E5%BC%80%E5%90%AF%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/" class="prev" rel="prev" title="Loveit开启评论功能"><i class="fas fa-angle-left fa-fw"></i>Loveit开启评论功能</a>
-            <a href="/Raid%E7%A3%81%E7%9B%98%E9%98%B5%E5%88%97/" class="next" rel="next" title="Raid磁盘阵列">Raid磁盘阵列<i class="fas fa-angle-right fa-fw"></i></a></div>
+    <div class="post-nav"><a href="/Linux%E4%BD%BF%E7%94%A8iftop%E6%9F%A5%E7%9C%8B%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E6%83%85%E5%86%B5/" class="prev" rel="prev" title="Linux使用iftop查看带宽占用情况"><i class="fas fa-angle-left fa-fw"></i>Linux使用iftop查看带宽占用情况</a></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
