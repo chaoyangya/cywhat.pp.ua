@@ -687,7 +687,7 @@ posts = "/:year/:month/:day/:slug"
 [author]
   name = "cywhat"
   email = "cywhat@cywhat.cn"
-  link = "https://cywhat.pp.ua"
+  link = "https://cywhat.cn"
 
 # Sitemap config
 # 网站地图配置

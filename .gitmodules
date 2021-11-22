@@ -4,9 +4,18 @@
 [submodule "cywhats"]
 	path = cywhats
 	url = https://git.heroku.com/cywhats.git
+# [submodule "LoveIt"]
+# 	path = LoveIt
+# 	url = https://github.com/dillonzq/LoveIt.git
+# [submodule "themes/LoveIt"]
+# 	path = themes/LoveIt
+# 	url = https://github.com/dillonzq/LoveIt.git
+
 [submodule "LoveIt"]
-	path = LoveIt
-	url = https://github.com/dillonzq/LoveIt.git
+    path = LoveIt
+    url = https://github.com/chaoyangya/cywhat.pp.ua.git
+
 [submodule "themes/LoveIt"]
-	path = themes/LoveIt
-	url = https://github.com/dillonzq/LoveIt.git
+    path = themes/LoveIt
+    url = https://github.com/chaoyangya/cywhat.pp.ua.git
+
