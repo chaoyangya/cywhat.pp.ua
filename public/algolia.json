@@ -1,5 +1,14 @@
 [
     {
+        "title": "关于",
+        "uri": "about",
+        "content": "coding utf 8    class IntroduceMyself          Dog        def init self   self name    cywhat  self age   26 self height    172cm  self email    cywhat cywhat cn  self wechat    SwagAlong  self hometown          self hobby    LOL          self school         YY   self graduation_time   4 self blog    https   cywhat pp ua",
+        "objectID": "about",
+        "date": "2021-10-19T14:01:44.000Z",
+        "reward": false,
+        "comment": false
+    },
+    {
         "title": "App跟web定位元素页面相互切换",
         "uri": "posts/App跟web定位元素页面相互切换",
         "content": "QA  UI     App           web     App          App   H5                                                    self driver switch_to context   self driver switchto context  WEBVIEW1  app     web self driver switchto context  NATIVEAPP  web     app     App  web     web  App",
@@ -10,7 +19,7 @@
             "Android",
             "Appium"
         ],
-        "category": [
+        "categories": [
             "Appium"
         ]
     },
@@ -25,7 +34,7 @@
             "Avn",
             "Node"
         ],
-        "category": [
+        "categories": [
             "Avn"
         ]
     },
@@ -39,7 +48,7 @@
         "tags": [
             "Java"
         ],
-        "category": [
+        "categories": [
             "Java"
         ]
     },
@@ -56,7 +65,7 @@
             "Allure",
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Python"
         ]
     },
@@ -71,7 +80,7 @@
             "Centos",
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Centos"
         ]
     },
@@ -86,7 +95,7 @@
             "Linux",
             "Mysql"
         ],
-        "category": [
+        "categories": [
             "Mysql"
         ]
     },
@@ -100,7 +109,7 @@
         "tags": [
             "Git"
         ],
-        "category": [
+        "categories": [
             "Git"
         ]
     },
@@ -115,7 +124,7 @@
             "Django",
             "Jquery"
         ],
-        "category": [
+        "categories": [
             "Jquery"
         ]
     },
@@ -129,7 +138,7 @@
         "tags": [
             "Django"
         ],
-        "category": [
+        "categories": [
             "Django"
         ]
     },
@@ -144,7 +153,7 @@
             "Django",
             "Html"
         ],
-        "category": [
+        "categories": [
             "Django"
         ]
     },
@@ -158,7 +167,7 @@
         "tags": [
             "Django"
         ],
-        "category": [
+        "categories": [
             "Django"
         ]
     },
@@ -173,7 +182,7 @@
             "Jenkins",
             "Sonarqube"
         ],
-        "category": [
+        "categories": [
             "Sonarqube"
         ]
     },
@@ -188,7 +197,7 @@
             "Android",
             "Appium"
         ],
-        "category": [
+        "categories": [
             "Appium"
         ]
     },
@@ -202,21 +211,7 @@
         "tags": [
             "Django"
         ],
-        "category": [
-            "Django"
-        ]
-    },
-    {
-        "title": "Fonts.googleapis",
-        "uri": "posts/fonts.googleapis.com访问较慢",
-        "content": "title   fonts googleapis com           date  2021 10 12 18 14 32                                  css         fonts googleapis com       1                   css         fonts googleapis com         cdnjs loli net 2    html     link 3              1   google   url   https   fonts googleapis com css family IBM Plex Sans 100 100i 200 200i 300 300i 400 400i 500 500i 600 600i 700 700i Rubik 300 300i 400 400i 500 500i 700 700i 900 900i display swap  2   css              3 css html       html css import  fonts css   4                ms",
-        "objectID": "posts/fonts.googleapis.com访问较慢",
-        "date": "2021-10-15T09:11:36.000Z",
-        "draft": false,
-        "tags": [
-            "Django"
-        ],
-        "category": [
+        "categories": [
             "Django"
         ]
     },
@@ -230,7 +225,7 @@
         "tags": [
             "Git"
         ],
-        "category": [
+        "categories": [
             "Git"
         ]
     },
@@ -245,7 +240,7 @@
             "Git",
             ".gitignore"
         ],
-        "category": [
+        "categories": [
             "Git"
         ]
     },
@@ -259,7 +254,7 @@
         "tags": [
             "Git"
         ],
-        "category": [
+        "categories": [
             "Git"
         ]
     },
@@ -273,7 +268,7 @@
         "tags": [
             "Hexo"
         ],
-        "category": [
+        "categories": [
             "Hexo"
         ]
     },
@@ -289,7 +284,7 @@
             "Netlify",
             "Git"
         ],
-        "category": [
+        "categories": [
             "Hexo"
         ]
     },
@@ -303,21 +298,21 @@
         "tags": [
             "Hexo"
         ],
-        "category": [
+        "categories": [
             "Hexo"
         ]
     },
     {
         "title": "hexo修改新建文章的默认字段",
         "uri": "posts/hexo修改新建文章的默认字段",
-        "content": "title date tags              title     title    date     date    tags  category               category",
+        "content": "title date tags              title     title    date     date    tags  categories",
         "objectID": "posts/hexo修改新建文章的默认字段",
         "date": "2021-07-09T14:33:15.000Z",
         "draft": false,
         "tags": [
             "Hexo"
         ],
-        "category": [
+        "categories": [
             "Hexo"
         ]
     },
@@ -331,7 +326,7 @@
         "tags": [
             "Hexo"
         ],
-        "category": [
+        "categories": [
             "Hexo"
         ]
     },
@@ -345,7 +340,7 @@
         "tags": [
             "Hexo"
         ],
-        "category": [
+        "categories": [
             "Hexo"
         ]
     },
@@ -359,7 +354,7 @@
         "tags": [
             "Hexo"
         ],
-        "category": [
+        "categories": [
             "Hexo"
         ]
     },
@@ -374,7 +369,7 @@
             "Html",
             "JS"
         ],
-        "category": [
+        "categories": [
             "Html"
         ]
     },
@@ -388,7 +383,7 @@
         "tags": [
             "Https"
         ],
-        "category": [
+        "categories": [
             "Https"
         ]
     },
@@ -403,7 +398,7 @@
             "Linux",
             "Flask"
         ],
-        "category": [
+        "categories": [
             "Flask"
         ]
     },
@@ -418,7 +413,7 @@
             "Iterm2",
             "Mac"
         ],
-        "category": [
+        "categories": [
             "Iterm2"
         ]
     },
@@ -432,7 +427,7 @@
         "tags": [
             "Java"
         ],
-        "category": [
+        "categories": [
             "Java"
         ]
     },
@@ -446,7 +441,7 @@
         "tags": [
             "Jenkins"
         ],
-        "category": [
+        "categories": [
             "Jenkins"
         ]
     },
@@ -460,7 +455,7 @@
         "tags": [
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Linux"
         ]
     },
@@ -476,7 +471,7 @@
             "Newman",
             "Node"
         ],
-        "category": [
+        "categories": [
             "Newman"
         ]
     },
@@ -490,8 +485,23 @@
         "tags": [
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Linux"
+        ]
+    },
+    {
+        "title": "Linux使用iftop查看带宽占用情况",
+        "uri": "posts/Linux使用iftop查看带宽占用情况",
+        "content": "Linux               iftop 1   iftop centos  yum install iftop debian  apt get install iftop 2   iftop iftop  i eth1    eth1          iftop  i eth1  P             3 iftop   TX      RX      TOTAL     Cumm   iftop          peak      rates      2s 10s 40s      4 iftop      i            iftop  i eth1  B  bytes           bits      iftop  B  n host         IP     iftop  n  N                     iftop  N  F               iftop  F 10 10 1 0 24   iftop  F 10 10 1 0 255 255 255 0  h display message            p                               IP     b              f                    P host                m                              iftop  m 100M 5                 h           n       IP       s         host     d             host     t       2  1                    N                 S                D                    p             P            b                B    2  10  40          T                 l                    ip              IP          L                             j  k                     1 2 3                                   IP     o                 f                                  shell                       q",
+        "objectID": "posts/Linux使用iftop查看带宽占用情况",
+        "date": "2021-11-17T02:16:41.000Z",
+        "draft": false,
+        "tags": [
+            "Linux"
+        ],
+        "categories": [
+            "Linux",
+            "iftop"
         ]
     },
     {
@@ -504,7 +514,7 @@
         "tags": [
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Linux"
         ]
     },
@@ -519,7 +529,7 @@
             "Jdk",
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Jdk"
         ]
     },
@@ -533,7 +543,7 @@
         "tags": [
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Linux"
         ]
     },
@@ -548,7 +558,7 @@
             "Sonarqube",
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Sonarqube"
         ]
     },
@@ -563,7 +573,7 @@
             "Linux",
             "Node"
         ],
-        "category": [
+        "categories": [
             "Node"
         ]
     },
@@ -578,8 +588,56 @@
             "Easy_mock",
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Easy_mock"
+        ]
+    },
+    {
+        "title": "Loveit主题开启文章赞赏",
+        "uri": "posts/Loveit主题开启文章赞赏",
+        "content": "Loveit                           1        config toml          params reward         enable   true   true    flase    wechat     images wechat png              alipay     images alipay png                                                                   title   xxxx  date  2021 10 21T16 36 41 08 00 draft  false tags    xxx   xxx   categories    xxx   xxx   reward  false   flase          2               config toml                   zh cn     defaultContentLanguage    zh cn     themes LoveIt i18n zh CN toml           reward            other            rewardAlipay             rewardWechat           3           themes layouts partials single      reward html html          Params reward  and  Site Params reward enable  ne  Params reward false          T  reward         qrCode     Site Params reward         cdnPrefix     Site Params cdnPrefix         qrCode wechat        T  rewardWechat         end        qrCode alipay        T  rewardAlipay         end        end    4            themes LoveIt layouts posts single html           Content                    Content            dict  Content   Content  Ruby   params ruby  Fraction   params fraction  Fontawesome   params fontawesome   partial  function content html    safeHTML                              Content            dict  Content   Content  Ruby   params ruby  Fraction   params fraction  Fontawesome   params fontawesome   partial  function content html    safeHTML            Reward                partial  single reward html                 5   css      themes assets css     _custom scss                 article  post reward   margin top  20px  padding top  10px  text align  center  border top  1px dashed  e6e6e6   article  post reward  reward button   margin  15px 0  padding  3px 7px  display  inline block  color   c05b4d  border  1px solid  c05b4d  border radius  5px  cursor  pointer   article  post reward  reward button hover   color   fefefe  background color   c05b4d  transition   5s   article  post reward  reward checked  qr code   display  block   article  post reward  reward checked  reward button   display  none   article  post reward  qr code   display  none   article  post reward  qr code  qr code image   display  inline block  min width  200px  width  40   margin top  15px   article  post reward  qr code  qr code image span   display  inline block  width  100   margin  8px 0   article  post reward  qr code  image   width  200px  height  200px   6      hugo server  D",
+        "objectID": "posts/Loveit主题开启文章赞赏",
+        "date": "2021-10-21T08:36:41.000Z",
+        "draft": false,
+        "tags": [
+            "Hugo",
+            "Loveit"
+        ],
+        "categories": [
+            "Hugo",
+            "Loveit"
+        ]
+    },
+    {
+        "title": "Loveit主题的一些美化设置",
+        "uri": "posts/loveit主题的一些美化设置",
+        "content": "hugo                        hexo   hugo                      hugo  Loveit                 LoveIt  Shortcodes 1 admonition admonition      12             type      list    2                                              3         type note           type abstract           type info           type tip           type success           type question           type warning           type failure           type danger           type Bug           type example           type quote",
+        "objectID": "posts/loveit主题的一些美化设置",
+        "date": "2021-10-21T08:08:45.000Z",
+        "draft": false,
+        "tags": [
+            "Hugo",
+            "Loveit"
+        ],
+        "categories": [
+            "Hugo",
+            "Loveit"
+        ]
+    },
+    {
+        "title": "Loveit开启评论功能",
+        "uri": "posts/Loveit开启评论功能",
+        "content": "Loveit                  Loveit     loveit    valine                    1   Leancloud         leancloud       leancloud                    LeanCloud                                     2             config toml    valine          params page comment valine  enable   true   true    false    appId    XWDPvzYoXXXXXGqOm MdYXbMMI             appKey    U3pRXXXXXSADAXAaAaoRQ             placeholder           avatar    mp  meta     pageSize   10 lang      visitor   true recordIP   true highlight   true enableQQ   false serverURLs    https   mukjinfv api lncldglobal com    URL                        title     comment     false         title       date  2021 10 19T22 01 44 08 00 reward  false comment  false   comment false",
+        "objectID": "posts/Loveit开启评论功能",
+        "date": "2021-10-21T09:07:26.000Z",
+        "draft": false,
+        "tags": [
+            "Hugo",
+            "Loveit"
+        ],
+        "categories": [
+            "Hugo",
+            "Loveit"
         ]
     },
     {
@@ -592,19 +650,21 @@
             "Mac",
             "Brew"
         ],
-        "category": "Mac"
+        "categories": [
+            "Mac"
+        ]
     },
     {
         "title": "Mac必备软件推荐",
         "uri": "posts/Mac必备软件推荐",
-        "content": "app                                                                     Screenium 3                          Permute 3                   App Cleaner   Uninstaller                 Air2a Gui                Fork lift  finder         ftp  pap er  4K      IINA         Sublime Text                  MWeb Pro  markdown           Unarchiver          TinyCal          Appstore         Perculia",
+        "content": "app                                                                     Screenium 3                          Permute 3                   App Cleaner   Uninstaller                 Air2a Gui                Fork lift  finder         ftp  pap er  4K      IINA         Sublime Text                  MWeb Pro  markdown           Unarchiver          TinyCal          Appstore         Perculia                 Wondershare UniConverter",
         "objectID": "posts/Mac必备软件推荐",
         "date": "2021-09-10T14:54:10.000Z",
         "draft": false,
         "tags": [
             "Mac"
         ],
-        "category": [
+        "categories": [
             "Mac"
         ]
     },
@@ -618,7 +678,7 @@
         "tags": [
             "Mac"
         ],
-        "category": [
+        "categories": [
             "Mac"
         ]
     },
@@ -632,7 +692,7 @@
         "tags": [
             "Mysql"
         ],
-        "category": [
+        "categories": [
             "Mysql"
         ]
     },
@@ -648,7 +708,7 @@
             "Newman",
             "Jenkins"
         ],
-        "category": [
+        "categories": [
             "Newman"
         ]
     },
@@ -663,7 +723,7 @@
             "Nginx",
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Nginx"
         ]
     },
@@ -677,7 +737,7 @@
         "tags": [
             "Nginx"
         ],
-        "category": [
+        "categories": [
             "Nginx"
         ]
     },
@@ -691,7 +751,7 @@
         "tags": [
             "Django"
         ],
-        "category": [
+        "categories": [
             "Django"
         ]
     },
@@ -705,7 +765,7 @@
         "tags": [
             "Node"
         ],
-        "category": [
+        "categories": [
             "Node"
         ]
     },
@@ -720,7 +780,7 @@
             "Npm",
             "Node"
         ],
-        "category": [
+        "categories": [
             "Npm"
         ]
     },
@@ -735,7 +795,7 @@
             "Node",
             "Npm"
         ],
-        "category": [
+        "categories": [
             "Npm"
         ]
     },
@@ -751,7 +811,7 @@
             "Node",
             "Npm"
         ],
-        "category": [
+        "categories": [
             "Npm"
         ]
     },
@@ -766,7 +826,7 @@
             "Pip",
             "Python"
         ],
-        "category": [
+        "categories": [
             "Pip"
         ]
     },
@@ -780,7 +840,7 @@
         "tags": [
             "Postman"
         ],
-        "category": [
+        "categories": [
             "Postman"
         ]
     },
@@ -792,15 +852,27 @@
         "date": "2021-03-11T17:09:24.000Z",
         "draft": false,
         "tags": [
-            "Python",
             "Linux",
             "Nginx",
-            "Django",
-            "Uwsgi",
-            "Virtualenv"
+            "Django"
         ],
-        "category": [
+        "categories": [
             "Python"
+        ]
+    },
+    {
+        "title": "Raid磁盘阵列",
+        "uri": "posts/Raid磁盘阵列",
+        "content": "1    Raid      Raid     Redundant Array Independent Disks                              Disk Array        RAID                                                                                 RAID   RAID Levels          RAID 0   6      RAID             RAID         RAID 10 RAID 0 RAID 1             2 Raid         1    2         3 Raid      Raid 0       Raid 0                                                                                                              2                          1   N      N     N  2 2                              Raid 1      Raid 1                                                      2                         1   N      N     N  2         N 100               N  2             Raid 5       55   Raid 5                                   Raid 5                                                                                       3         3   2    1                1   N      N     N  3         N 1 N               N  2           1       Raid 10       55   Raid 10  Raid1   Raid 0             Raid 10                         Raid 1                     Raid 1      Raid 0                                                   50             Raid 10     Raid 0       Raid 1             4     2    1        Raid 1   Raid 1     Raid 0      1   N      N     N  4         50               N  2     Raid         1       4 Raid",
+        "objectID": "posts/Raid磁盘阵列",
+        "date": "2021-11-18T02:01:24.000Z",
+        "draft": false,
+        "tags": [
+            "Linux"
+        ],
+        "categories": [
+            "Linux",
+            "Raid"
         ]
     },
     {
@@ -814,7 +886,7 @@
             "Linux",
             "Sed"
         ],
-        "category": [
+        "categories": [
             "Linux"
         ]
     },
@@ -829,7 +901,7 @@
             "Selenium",
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Selenium"
         ]
     },
@@ -843,7 +915,7 @@
         "tags": [
             "Shadowrocket"
         ],
-        "category": [
+        "categories": [
             "Shadowrocket"
         ]
     },
@@ -858,7 +930,7 @@
             "Supervisord",
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Supervisord"
         ]
     },
@@ -872,7 +944,7 @@
         "tags": [
             "Tampermonkey"
         ],
-        "category": [
+        "categories": [
             "Tampermonkey"
         ]
     },
@@ -887,7 +959,7 @@
             "Nginx",
             "Linux"
         ],
-        "category": [
+        "categories": [
             "Nginx"
         ]
     },
@@ -902,7 +974,7 @@
             "Google",
             "Hexo"
         ],
-        "category": [
+        "categories": [
             "Hexo"
         ]
     },
@@ -916,7 +988,7 @@
         "tags": [
             "Hexo"
         ],
-        "category": [
+        "categories": [
             "Hexo"
         ]
     }
