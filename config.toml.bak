@@ -1,4 +1,4 @@
-baseURL = 'https://cywhat.pp.ua'
+baseURL = 'https://cywhat.cn'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "LoveIt"

@@ -490,7 +490,7 @@ posts = "/:year/:month/:day/:slug"
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = "https://avoscloud.com"
+        serverURLs = "https://mukjinfv.api.lncldglobal.com/"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/LoveIt/assets/data/emoji/" directory
