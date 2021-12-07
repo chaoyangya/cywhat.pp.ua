@@ -9,7 +9,7 @@ comment: false
 " ----关于我----"
 {{< /admonition >}}
 
-```python
+
 # -*- coding:utf-8 -*-
 class IntroduceMyself():
 
@@ -17,19 +17,16 @@ class IntroduceMyself():
     ''' 测开Dog的介绍 '''
 
 
-def __init__(self):
+    def __init__(self):
+    
+        self.name = "cywhat"
+        self.age = 26
+        self.height = "172cm"
+        self.email = "cywhat@cywhat.cn"
+        self.wechat = "SwagAlong"
+        self.hometown = "山西忻州"
+        self.hobby = "LOL/王者荣耀/摄影"
+        self.school = "麻省理工(YY)"
+        self.graduation_time = 4
+        self.blog = "https://cywhat.cn"
 
-
-    self.name = "cywhat"
-    self.age = 26
-    self.height = "172cm"
-    self.email = "cywhat@cywhat.cn"
-    self.wechat = "SwagAlong"
-    self.hometown = "山西忻州"
-    self.hobby = "LOL/王者荣耀/摄影"
-    self.school = "麻省理工(YY)"
-    self.graduation_time = 4
-    self.blog = "https://cywhat.pp.ua"
-
-
-```
